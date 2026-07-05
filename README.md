@@ -113,15 +113,40 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+# (Optional) Configure nbstripout to auto-strip notebook outputs on commit
+# This keeps the repo clean by not committing cell outputs and execution counts
+nbstripout --install --attributes .gitattributes
 ```
 
 ### Environment Setup
 
 ```bash
-# Create .env file with your Groq API key
-echo "GROQ_API_KEY=gsk_YOUR_KEY_HERE" > .env
+# Copy .env.example to .env and add your actual Groq API key
+cp .env.example .env
+
+# Then edit .env and replace gsk_YOUR_KEY_HERE with your actual key from https://console.groq.com
+# For example: GROQ_API_KEY=gsk_a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5
 ```
 
+**Important:** If you skip this step, the notebooks will prompt you to enter your Groq API key interactively when needed.
+
+### Running the Notebooks
+
+Execute notebooks **in order** (each builds on outputs from the previous):
+
+1. **01_01_generate_synthetic_data.ipynb** - Creates `data/raw/*.csv` (suppliers, products, orders, etc.)
+2. **01_02_create_knowledge_graph.ipynb** - Reads CSVs, outputs `data/processed/supplychain_kg.ttl` (RDF graph)
+3. **01_03_visualize_knowledge_graph.ipynb** - Visualizes the graph (optional, for exploration)
+4. **01_04_export_kg_triples_as_text.ipynb** - Converts RDF triples to `data/processed/supplychain_kg_text.txt`
+5. **02_01_embeddings_finetuning.ipynb** - Reads the text file, outputs fine-tuned embeddings to `data/models/` and `data/outputs/`
+6. **02_02_chromadb_semantic_search.ipynb** - Indexes embeddings in ChromaDB (optional, tested separately)
+7. **03_01_rag_pipeline_core.ipynb** - Implements RAG orchestration (requires all above + Groq API key)
+8. **03_02_prompt_engineering.ipynb** - Compares 4 prompt strategies on benchmark query
+9. **03_03_rag_business_queries.ipynb** - Demonstrates 5 realistic supply chain queries
+10. **04_01_llmops_responsible_ai.ipynb** - MLflow experiment tracking + hallucination guardrail
+
+**Start here:** Run 01_01 → 01_02 → 01_04 → 02_01 → 03_01 as the **minimum viable pipeline**. Other notebooks are optional refinements.
 
 ## Configuration
 
