@@ -82,7 +82,7 @@ These are acceptable for a proof-of-concept. Production would require rethinking
 Key packages:
 - rdflib==6.0.0 - RDF graph operations
 - sentence-transformers==2.2.2 - Embeddings
-- chromadb==1.5.9 - Vector database
+- chromadb>=1.5.9 - Vector database (pin will auto-upgrade when CVE fix is published to PyPI)
 - langchain==0.1.0 - RAG orchestration
 - langchain-groq - Groq LLM integration
 - torch - ML compute

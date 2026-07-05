@@ -4,7 +4,7 @@ transformers==5.3.0
 networkx==2.8.5
 rdflib==7.6.0
 pyvis==0.1.9
-chromadb==1.5.9
+chromadb>=1.5.9  # 1.5.9 is latest on PyPI; upgrade when 1.6.x+ is published to get pre-auth CVE fix
 groq==0.37.1
 pandas==2.2.2
 numpy==1.26.4
