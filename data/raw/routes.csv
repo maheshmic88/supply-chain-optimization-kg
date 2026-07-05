@@ -1,0 +1,9 @@
+RouteID,OriginWarehouseID,DestinationWarehouseID,AvgTransitDays,Cost
+1,4,3,6,425.15
+2,2,4,4,335.13
+3,1,5,2,294.71
+4,4,5,5,303.24
+5,2,4,3,136.28
+6,3,1,14,268.49
+7,3,2,6,172.59
+8,5,2,13,358.08

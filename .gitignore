@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated ML artifacts (auto-created by notebook runs)
+data/models/fine_tuned_embedder/model.safetensors
+data/models/fine_tuned_embedder/training_args.bin
+data/models/fine_tuned_embedder/optimizer.pt
+data/outputs/*.npy
+data/outputs/*.png
+data/outputs/*.json

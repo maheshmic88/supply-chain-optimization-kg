@@ -1,0 +1,16 @@
+CustomerID,Region,Tier
+1,West,2
+2,East,3
+3,West,3
+4,North,2
+5,North,2
+6,West,3
+7,West,3
+8,East,4
+9,South,4
+10,West,2
+11,North,4
+12,East,1
+13,West,4
+14,North,4
+15,North,1

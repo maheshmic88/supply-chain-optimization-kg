@@ -1,0 +1,1647 @@
+@prefix ex: <http://example.org/supplychain/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/supplychain/customer/5> a ex:Customer ;
+    ex:region "North" ;
+    ex:tier 2 .
+
+<http://example.org/supplychain/event/1> a ex:LogisticsEvent ;
+    ex:cause "Draw how public feel first sell." ;
+    ex:eventType "Outage" ;
+    ex:supplier <http://example.org/supplychain/supplier/7> .
+
+<http://example.org/supplychain/event/10> a ex:LogisticsEvent ;
+    ex:cause "War real chance along." ;
+    ex:delayDays 14 ;
+    ex:eventType "Delay" ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipment <http://example.org/supplychain/shipment/28> ;
+    ex:supplier <http://example.org/supplychain/supplier/10> .
+
+<http://example.org/supplychain/event/11> a ex:LogisticsEvent ;
+    ex:cause "Old challenge camera final together someone." ;
+    ex:eventType "Outage" ;
+    ex:supplier <http://example.org/supplychain/supplier/2> .
+
+<http://example.org/supplychain/event/12> a ex:LogisticsEvent ;
+    ex:cause "Together decide economic." ;
+    ex:eventType "Inspection" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/event/13> a ex:LogisticsEvent ;
+    ex:cause "Government nice themselves wind." ;
+    ex:delayDays 3 ;
+    ex:eventType "Delay" ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipment <http://example.org/supplychain/shipment/36> ;
+    ex:supplier <http://example.org/supplychain/supplier/3> .
+
+<http://example.org/supplychain/event/14> a ex:LogisticsEvent ;
+    ex:cause "Understand door class son." ;
+    ex:eventType "Outage" ;
+    ex:supplier <http://example.org/supplychain/supplier/5> .
+
+<http://example.org/supplychain/event/15> a ex:LogisticsEvent ;
+    ex:cause "Thing agent say forward." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/41> ;
+    ex:shipment <http://example.org/supplychain/shipment/49> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/event/16> a ex:LogisticsEvent ;
+    ex:cause "Soon ten specific environment skin blue." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/30> ;
+    ex:shipment <http://example.org/supplychain/shipment/47> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/event/17> a ex:LogisticsEvent ;
+    ex:cause "Teach develop staff." ;
+    ex:eventType "Shipment Hold" ;
+    ex:order <http://example.org/supplychain/order/5> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipment <http://example.org/supplychain/shipment/36> .
+
+<http://example.org/supplychain/event/18> a ex:LogisticsEvent ;
+    ex:cause "Glass star the development process huge everything." ;
+    ex:eventType "Inspection" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/event/19> a ex:LogisticsEvent ;
+    ex:cause "Whom evidence political hundred." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/15> ;
+    ex:shipment <http://example.org/supplychain/shipment/17> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/event/2> a ex:LogisticsEvent ;
+    ex:cause "Act perform none beyond." ;
+    ex:eventType "Shipment Hold" ;
+    ex:order <http://example.org/supplychain/order/10> ;
+    ex:route <http://example.org/supplychain/route/3> ;
+    ex:shipment <http://example.org/supplychain/shipment/18> .
+
+<http://example.org/supplychain/event/20> a ex:LogisticsEvent ;
+    ex:cause "Former agree theory end oil worker although." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/15> ;
+    ex:shipment <http://example.org/supplychain/shipment/34> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/event/3> a ex:LogisticsEvent ;
+    ex:cause "Defense enter value thing these hard citizen." ;
+    ex:eventType "Shipment Hold" ;
+    ex:order <http://example.org/supplychain/order/41> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipment <http://example.org/supplychain/shipment/41> .
+
+<http://example.org/supplychain/event/4> a ex:LogisticsEvent ;
+    ex:cause "Region particularly would pressure account stage federal." ;
+    ex:eventType "Outage" ;
+    ex:supplier <http://example.org/supplychain/supplier/1> .
+
+<http://example.org/supplychain/event/5> a ex:LogisticsEvent ;
+    ex:cause "Voice care break blood." ;
+    ex:eventType "Shipment Hold" ;
+    ex:order <http://example.org/supplychain/order/8> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipment <http://example.org/supplychain/shipment/12> .
+
+<http://example.org/supplychain/event/6> a ex:LogisticsEvent ;
+    ex:cause "Choice example decision garden reach table measure." ;
+    ex:eventType "Shipment Hold" ;
+    ex:order <http://example.org/supplychain/order/3> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipment <http://example.org/supplychain/shipment/21> .
+
+<http://example.org/supplychain/event/7> a ex:LogisticsEvent ;
+    ex:cause "Town suffer begin interest everybody." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/48> ;
+    ex:shipment <http://example.org/supplychain/shipment/6> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/event/8> a ex:LogisticsEvent ;
+    ex:cause "Four capital woman." ;
+    ex:eventType "Damage" ;
+    ex:order <http://example.org/supplychain/order/7> ;
+    ex:shipment <http://example.org/supplychain/shipment/45> ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/event/9> a ex:LogisticsEvent ;
+    ex:cause "Scientist necessary into act." ;
+    ex:delayDays 13 ;
+    ex:eventType "Delay" ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipment <http://example.org/supplychain/shipment/10> ;
+    ex:supplier <http://example.org/supplychain/supplier/5> .
+
+<http://example.org/supplychain/inventory/1> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/8> ;
+    ex:reorderPoint 30 ;
+    ex:reservedQty 27 ;
+    ex:stockOnHand 131 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/inventory/10> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/17> ;
+    ex:reorderPoint 7 ;
+    ex:reservedQty 40 ;
+    ex:stockOnHand 107 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/11> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 3 ;
+    ex:stockOnHand 15 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/12> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:reorderPoint 7 ;
+    ex:reservedQty 37 ;
+    ex:stockOnHand 142 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/13> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:reorderPoint 14 ;
+    ex:reservedQty 4 ;
+    ex:stockOnHand 62 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/14> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 18 ;
+    ex:reservedQty 20 ;
+    ex:stockOnHand 154 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/15> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/14> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 2 ;
+    ex:stockOnHand 10 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/16> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:reorderPoint 69 ;
+    ex:reservedQty 61 ;
+    ex:stockOnHand 269 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/17> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/8> ;
+    ex:reorderPoint 76 ;
+    ex:reservedQty 33 ;
+    ex:stockOnHand 297 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/18> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/2> ;
+    ex:reorderPoint 16 ;
+    ex:reservedQty 2 ;
+    ex:stockOnHand 127 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/19> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:reorderPoint 21 ;
+    ex:reservedQty 56 ;
+    ex:stockOnHand 231 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/2> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/18> ;
+    ex:reorderPoint 9 ;
+    ex:reservedQty 11 ;
+    ex:stockOnHand 37 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/20> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/14> ;
+    ex:reorderPoint 11 ;
+    ex:reservedQty 10 ;
+    ex:stockOnHand 75 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/21> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/2> ;
+    ex:reorderPoint 19 ;
+    ex:reservedQty 17 ;
+    ex:stockOnHand 107 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/inventory/22> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 34 ;
+    ex:reservedQty 37 ;
+    ex:stockOnHand 258 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/inventory/23> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 8 ;
+    ex:reservedQty 4 ;
+    ex:stockOnHand 90 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/24> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/17> ;
+    ex:reorderPoint 73 ;
+    ex:reservedQty 83 ;
+    ex:stockOnHand 282 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/25> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/6> ;
+    ex:reorderPoint 17 ;
+    ex:reservedQty 1 ;
+    ex:stockOnHand 62 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/26> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/11> ;
+    ex:reorderPoint 27 ;
+    ex:reservedQty 74 ;
+    ex:stockOnHand 249 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/inventory/27> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 3 ;
+    ex:stockOnHand 17 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/inventory/28> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/3> ;
+    ex:reorderPoint 33 ;
+    ex:reservedQty 26 ;
+    ex:stockOnHand 204 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/inventory/29> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 46 ;
+    ex:reservedQty 4 ;
+    ex:stockOnHand 286 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/3> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/4> ;
+    ex:reorderPoint 58 ;
+    ex:reservedQty 26 ;
+    ex:stockOnHand 201 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/30> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/6> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 0 ;
+    ex:stockOnHand 10 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/31> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 1 ;
+    ex:stockOnHand 55 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/32> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:reorderPoint 19 ;
+    ex:reservedQty 25 ;
+    ex:stockOnHand 82 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/33> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/15> ;
+    ex:reorderPoint 17 ;
+    ex:reservedQty 10 ;
+    ex:stockOnHand 65 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/34> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/4> ;
+    ex:reorderPoint 56 ;
+    ex:reservedQty 7 ;
+    ex:stockOnHand 266 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/35> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/14> ;
+    ex:reorderPoint 49 ;
+    ex:reservedQty 1 ;
+    ex:stockOnHand 225 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/36> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/14> ;
+    ex:reorderPoint 55 ;
+    ex:reservedQty 55 ;
+    ex:stockOnHand 196 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/37> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/15> ;
+    ex:reorderPoint 42 ;
+    ex:reservedQty 17 ;
+    ex:stockOnHand 247 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/inventory/38> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 8 ;
+    ex:stockOnHand 24 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/inventory/39> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/10> ;
+    ex:reorderPoint 11 ;
+    ex:reservedQty 16 ;
+    ex:stockOnHand 48 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/4> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/9> ;
+    ex:reorderPoint 32 ;
+    ex:reservedQty 76 ;
+    ex:stockOnHand 221 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/40> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:reorderPoint 9 ;
+    ex:reservedQty 0 ;
+    ex:stockOnHand 34 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/5> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:reorderPoint 10 ;
+    ex:reservedQty 2 ;
+    ex:stockOnHand 55 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/inventory/6> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:reorderPoint 51 ;
+    ex:reservedQty 68 ;
+    ex:stockOnHand 265 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/7> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/2> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 5 ;
+    ex:stockOnHand 19 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/inventory/8> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:reorderPoint 5 ;
+    ex:reservedQty 0 ;
+    ex:stockOnHand 14 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/inventory/9> a ex:Inventory ;
+    ex:product <http://example.org/supplychain/product/18> ;
+    ex:reorderPoint 15 ;
+    ex:reservedQty 48 ;
+    ex:stockOnHand 233 ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/1> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-01-09"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-01-08"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/19> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-01-05"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/11> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-03-06"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-03-04"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/22> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-02-18"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/13> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-03-12"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-03-12"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/49> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-02-27"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/14> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-03-18"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-03-16"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/50> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-03-02"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/15> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-04-17"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-04-15"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/36> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-04-09"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/16> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-04-13"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-04-13"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/14> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-04-08"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/19> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-05-03"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-05-03"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/39> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-04-30"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/2> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-01-11"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-01-09"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/28> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-01-06"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/20> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-05-16"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-05-14"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/45> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-05-08"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/22> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-06-18"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-06-17"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/3> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-06-11"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/23> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-06-17"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-06-15"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/26> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-06-10"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/24> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-06-17"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-06-15"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/42> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-06-12"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/25> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-07-01"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-06-28"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/24> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-06-22"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/shipment/26> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-07-06"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-07-06"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/35> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-06-30"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/shipment/27> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-07-25"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-07-25"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/38> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-07-11"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/29> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-07-22"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-07-19"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/21> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-07-14"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/3> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-01-24"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-01-24"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/23> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-01-21"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/30> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-08-14"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-08-12"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/25> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-08-08"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/31> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-08-16"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-08-15"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/1> ;
+    ex:order <http://example.org/supplychain/order/48> ;
+    ex:route <http://example.org/supplychain/route/3> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-08-13"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/32> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-08-20"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-08-20"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/11> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-08-15"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/33> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-09-01"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-08-31"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/5> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-08-18"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/35> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-09-14"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-09-11"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/2> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-08-29"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/37> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-09-18"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-09-16"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/43> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-09-13"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/38> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-09-28"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-09-28"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/8> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-09-22"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/39> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-09"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-09"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/1> ;
+    ex:order <http://example.org/supplychain/order/12> ;
+    ex:route <http://example.org/supplychain/route/3> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-10-07"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/4> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-01-26"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-01-23"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/1> ;
+    ex:order <http://example.org/supplychain/order/46> ;
+    ex:route <http://example.org/supplychain/route/3> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-01-21"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/40> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-15"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-14"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/32> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-10-08"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/shipment/42> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-28"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-28"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/9> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-10-14"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/43> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-20"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-19"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/15> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-10-13"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/44> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-27"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-27"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/13> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-10-14"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/46> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-11-15"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-11-15"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/17> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-11-02"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/48> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-11-25"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-11-25"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/44> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-11-19"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/shipment/5> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-01-31"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-01-30"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/1> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-01-26"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/50> a ex:Shipment ;
+    ex:actualDeliveryDate "2024-01-20"^^xsd:date ;
+    ex:expectedDeliveryDate "2024-01-18"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/6> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2024-01-04"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/7> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-02-10"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-02-10"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/20> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-02-05"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/8> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-02-13"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-02-12"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/31> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-02-06"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/shipment/9> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-02-12"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-02-11"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/1> ;
+    ex:order <http://example.org/supplychain/order/4> ;
+    ex:route <http://example.org/supplychain/route/3> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-02-09"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/supplier/8> a ex:Supplier ;
+    ex:country "TG" ;
+    ex:leadTime 34 ;
+    ex:name "Henderson, Ramirez and Lewis" ;
+    ex:reliabilityScore "7.09"^^xsd:float .
+
+<http://example.org/supplychain/order/1> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/3> ;
+    ex:date "2023-01-22"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/11> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/11> ;
+    ex:date "2023-08-14"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/12> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/10> ;
+    ex:date "2023-10-04"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/13> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-10-13"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/14> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/10> ;
+    ex:date "2023-04-07"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/7> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/16> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/8> ;
+    ex:date "2023-11-13"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/6> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/17> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/1> ;
+    ex:date "2023-10-31"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/18> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/9> ;
+    ex:date "2023-05-27"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/20> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/19> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/11> ;
+    ex:date "2023-01-04"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/15> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/2> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/8> ;
+    ex:date "2023-08-26"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/17> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/20> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/6> ;
+    ex:date "2023-02-04"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/3> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/21> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-07-11"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/8> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/22> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/13> ;
+    ex:date "2023-02-18"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/20> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/23> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/10> ;
+    ex:date "2023-01-17"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/24> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-06-21"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/25> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/10> ;
+    ex:date "2023-08-08"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/18> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/26> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/3> ;
+    ex:date "2023-06-07"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/10> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/27> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-02-15"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/28> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/9> ;
+    ex:date "2023-01-06"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/17> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/29> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/8> ;
+    ex:date "2023-04-09"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/31> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/12> ;
+    ex:date "2023-02-06"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/9> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/32> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/10> ;
+    ex:date "2023-10-07"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/33> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-12-15"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/1> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/34> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/9> ;
+    ex:date "2023-10-29"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/1> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/35> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/4> ;
+    ex:date "2023-06-30"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/15> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/36> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/13> ;
+    ex:date "2023-04-05"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/2> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/37> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/4> ;
+    ex:date "2023-04-09"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/38> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/1> ;
+    ex:date "2023-07-07"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/8> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/39> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/8> ;
+    ex:date "2023-04-26"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/13> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/4> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/8> ;
+    ex:date "2023-02-07"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/10> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/40> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/14> ;
+    ex:date "2023-07-10"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/1> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/42> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/12> ;
+    ex:date "2023-06-10"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/7> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/43> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/3> ;
+    ex:date "2023-09-13"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/order/44> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-11-19"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/3> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/45> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/15> ;
+    ex:date "2023-05-08"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/12> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/order/46> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/12> ;
+    ex:date "2023-01-18"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/47> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-10-08"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/19> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/49> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-02-23"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/14> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/50> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/15> ;
+    ex:date "2023-02-27"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/6> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/15> ;
+    ex:date "2023-12-31"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/15> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/9> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-10-10"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/1> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/10> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-03-03"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-03-01"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/27> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-02-16"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/12> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-03-02"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-02-27"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/7> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-02-22"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/17> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-04-12"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-04-12"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/37> ;
+    ex:route <http://example.org/supplychain/route/5> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-04-09"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/18> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-04-28"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-04-25"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/29> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-04-11"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/21> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-06-14"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-06-14"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/18> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-05-31"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/28> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-07-19"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-07-16"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/40> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-07-10"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/34> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-08-27"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-08-26"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/30> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-08-22"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/41> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-10-22"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-10-22"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/47> ;
+    ex:route <http://example.org/supplychain/route/6> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-10-08"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/shipment/45> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-11-07"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-11-05"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:order <http://example.org/supplychain/order/34> ;
+    ex:route <http://example.org/supplychain/route/2> ;
+    ex:shipmentStatus "Delayed" ;
+    ex:shippedDate "2023-11-01"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/shipment/47> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-11-26"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-11-26"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:order <http://example.org/supplychain/order/16> ;
+    ex:route <http://example.org/supplychain/route/8> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-11-13"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/shipment/49> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-12-20"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-12-20"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/33> ;
+    ex:route <http://example.org/supplychain/route/4> ;
+    ex:shipmentStatus "On Time" ;
+    ex:shippedDate "2023-12-15"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/shipment/6> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-02-05"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-02-02"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:order <http://example.org/supplychain/order/10> ;
+    ex:route <http://example.org/supplychain/route/1> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-01-27"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/supplier/9> a ex:Supplier ;
+    ex:country "KE" ;
+    ex:leadTime 23 ;
+    ex:name "Garcia-James" ;
+    ex:reliabilityScore "7.55"^^xsd:float .
+
+<http://example.org/supplychain/customer/11> a ex:Customer ;
+    ex:region "North" ;
+    ex:tier 4 .
+
+<http://example.org/supplychain/customer/4> a ex:Customer ;
+    ex:region "North" ;
+    ex:tier 2 .
+
+<http://example.org/supplychain/customer/6> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 3 .
+
+<http://example.org/supplychain/order/10> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/15> ;
+    ex:date "2023-01-27"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/8> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/3> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/14> ;
+    ex:date "2023-06-07"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/20> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/30> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/13> ;
+    ex:date "2023-08-21"^^xsd:date ;
+    ex:priority 3 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/order/48> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-08-11"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/5> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/2> ;
+    ex:date "2023-08-18"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/6> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/7> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/6> ;
+    ex:date "2023-02-20"^^xsd:date ;
+    ex:priority 2 ;
+    ex:product <http://example.org/supplychain/product/11> ;
+    ex:status "Delivered" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/order/8> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/7> ;
+    ex:date "2023-09-21"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/5> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/product/11> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "96.62"^^xsd:float ;
+    ex:sku 89638346 ;
+    ex:stockQty 164 ;
+    ex:supplier <http://example.org/supplychain/supplier/4> .
+
+<http://example.org/supplychain/product/7> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "56.69"^^xsd:float ;
+    ex:sku 1845145 ;
+    ex:stockQty 179 ;
+    ex:supplier <http://example.org/supplychain/supplier/4> .
+
+<http://example.org/supplychain/product/9> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "42.73"^^xsd:float ;
+    ex:sku 80957012 ;
+    ex:stockQty 87 ;
+    ex:supplier <http://example.org/supplychain/supplier/7> .
+
+<http://example.org/supplychain/shipment/36> a ex:Shipment ;
+    ex:actualDeliveryDate "2023-09-23"^^xsd:date ;
+    ex:expectedDeliveryDate "2023-09-20"^^xsd:date ;
+    ex:fromWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:order <http://example.org/supplychain/order/41> ;
+    ex:route <http://example.org/supplychain/route/7> ;
+    ex:shipmentStatus "Late" ;
+    ex:shippedDate "2023-09-14"^^xsd:date ;
+    ex:toWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/supplier/1> a ex:Supplier ;
+    ex:country "BD" ;
+    ex:leadTime 28 ;
+    ex:name "Rodriguez, Figueroa and Sanchez" ;
+    ex:reliabilityScore "7.67"^^xsd:float .
+
+<http://example.org/supplychain/supplier/2> a ex:Supplier ;
+    ex:country "ZA" ;
+    ex:leadTime 16 ;
+    ex:name "Doyle Ltd" ;
+    ex:reliabilityScore "4.84"^^xsd:float .
+
+<http://example.org/supplychain/supplier/6> a ex:Supplier ;
+    ex:country "MT" ;
+    ex:leadTime 27 ;
+    ex:name "Gardner, Robinson and Lawrence" ;
+    ex:reliabilityScore "8.71"^^xsd:float .
+
+<http://example.org/supplychain/customer/1> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 2 .
+
+<http://example.org/supplychain/customer/12> a ex:Customer ;
+    ex:region "East" ;
+    ex:tier 1 .
+
+<http://example.org/supplychain/customer/13> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 4 .
+
+<http://example.org/supplychain/customer/14> a ex:Customer ;
+    ex:region "North" ;
+    ex:tier 4 .
+
+<http://example.org/supplychain/customer/3> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 3 .
+
+<http://example.org/supplychain/customer/9> a ex:Customer ;
+    ex:region "South" ;
+    ex:tier 4 .
+
+<http://example.org/supplychain/order/15> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/1> ;
+    ex:date "2023-10-11"^^xsd:date ;
+    ex:priority 1 ;
+    ex:product <http://example.org/supplychain/product/4> ;
+    ex:status "Pending" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/order/41> a ex:Order ;
+    ex:customer <http://example.org/supplychain/customer/14> ;
+    ex:date "2023-09-10"^^xsd:date ;
+    ex:priority 4 ;
+    ex:product <http://example.org/supplychain/product/16> ;
+    ex:status "Shipped" ;
+    ex:warehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/product/10> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "97.46"^^xsd:float ;
+    ex:sku 91171822 ;
+    ex:stockQty 142 ;
+    ex:supplier <http://example.org/supplychain/supplier/7> .
+
+<http://example.org/supplychain/product/18> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "55.24"^^xsd:float ;
+    ex:sku 2606478 ;
+    ex:stockQty 163 ;
+    ex:supplier <http://example.org/supplychain/supplier/5> .
+
+<http://example.org/supplychain/product/20> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "35.08"^^xsd:float ;
+    ex:sku 88208122 ;
+    ex:stockQty 143 ;
+    ex:supplier <http://example.org/supplychain/supplier/4> .
+
+<http://example.org/supplychain/product/3> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "20.79"^^xsd:float ;
+    ex:sku 83503056 ;
+    ex:stockQty 145 ;
+    ex:supplier <http://example.org/supplychain/supplier/3> .
+
+<http://example.org/supplychain/product/4> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "40.39"^^xsd:float ;
+    ex:sku 53767243 ;
+    ex:stockQty 149 ;
+    ex:supplier <http://example.org/supplychain/supplier/7> .
+
+<http://example.org/supplychain/supplier/3> a ex:Supplier ;
+    ex:country "PK" ;
+    ex:leadTime 30 ;
+    ex:name "Mcclain, Miller and Henderson" ;
+    ex:reliabilityScore "5.75"^^xsd:float .
+
+<http://example.org/supplychain/customer/15> a ex:Customer ;
+    ex:region "North" ;
+    ex:tier 1 .
+
+<http://example.org/supplychain/product/1> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "47.57"^^xsd:float ;
+    ex:sku 3413163 ;
+    ex:stockQty 148 ;
+    ex:supplier <http://example.org/supplychain/supplier/10> .
+
+<http://example.org/supplychain/product/17> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "64.86"^^xsd:float ;
+    ex:sku 10801325 ;
+    ex:stockQty 158 ;
+    ex:supplier <http://example.org/supplychain/supplier/9> .
+
+<http://example.org/supplychain/product/2> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "29.99"^^xsd:float ;
+    ex:sku 53419285 ;
+    ex:stockQty 166 ;
+    ex:supplier <http://example.org/supplychain/supplier/10> .
+
+<http://example.org/supplychain/product/6> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "39.09"^^xsd:float ;
+    ex:sku 22691667 ;
+    ex:stockQty 191 ;
+    ex:supplier <http://example.org/supplychain/supplier/4> .
+
+<http://example.org/supplychain/supplier/10> a ex:Supplier ;
+    ex:country "YE" ;
+    ex:leadTime 27 ;
+    ex:name "Abbott-Munoz" ;
+    ex:reliabilityScore "4.28"^^xsd:float .
+
+<http://example.org/supplychain/supplier/4> a ex:Supplier ;
+    ex:country "SO" ;
+    ex:leadTime 18 ;
+    ex:name "Davis and Sons" ;
+    ex:reliabilityScore "6.2"^^xsd:float .
+
+<http://example.org/supplychain/supplier/5> a ex:Supplier ;
+    ex:country "CM" ;
+    ex:leadTime 16 ;
+    ex:name "Guzman, Hoffman and Baldwin" ;
+    ex:reliabilityScore "6.74"^^xsd:float .
+
+<http://example.org/supplychain/customer/10> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 2 .
+
+<http://example.org/supplychain/customer/8> a ex:Customer ;
+    ex:region "East" ;
+    ex:tier 4 .
+
+<http://example.org/supplychain/product/14> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "37.08"^^xsd:float ;
+    ex:sku 82997378 ;
+    ex:stockQty 88 ;
+    ex:supplier <http://example.org/supplychain/supplier/6> .
+
+<http://example.org/supplychain/product/15> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "35.64"^^xsd:float ;
+    ex:sku 56670108 ;
+    ex:stockQty 135 ;
+    ex:supplier <http://example.org/supplychain/supplier/2> .
+
+<http://example.org/supplychain/product/8> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "73.27"^^xsd:float ;
+    ex:sku 82814899 ;
+    ex:stockQty 179 ;
+    ex:supplier <http://example.org/supplychain/supplier/5> .
+
+<http://example.org/supplychain/route/3> a ex:Route ;
+    ex:avgTransitDays 2 ;
+    ex:cost "294.71"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/1> .
+
+<http://example.org/supplychain/supplier/7> a ex:Supplier ;
+    ex:country "BR" ;
+    ex:leadTime 13 ;
+    ex:name "Blake and Sons" ;
+    ex:reliabilityScore "5.2"^^xsd:float .
+
+<http://example.org/supplychain/customer/2> a ex:Customer ;
+    ex:region "East" ;
+    ex:tier 3 .
+
+<http://example.org/supplychain/customer/7> a ex:Customer ;
+    ex:region "West" ;
+    ex:tier 3 .
+
+<http://example.org/supplychain/product/16> a ex:Product ;
+    ex:category "Electronics" ;
+    ex:demandLevel "13.32"^^xsd:float ;
+    ex:sku 38726244 ;
+    ex:stockQty 117 ;
+    ex:supplier <http://example.org/supplychain/supplier/10> .
+
+<http://example.org/supplychain/route/2> a ex:Route ;
+    ex:avgTransitDays 4 ;
+    ex:cost "335.13"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/product/12> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "32.66"^^xsd:float ;
+    ex:sku 13315093 ;
+    ex:stockQty 57 ;
+    ex:supplier <http://example.org/supplychain/supplier/7> .
+
+<http://example.org/supplychain/product/13> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "54.75"^^xsd:float ;
+    ex:sku 10310514 ;
+    ex:stockQty 43 ;
+    ex:supplier <http://example.org/supplychain/supplier/3> .
+
+<http://example.org/supplychain/route/1> a ex:Route ;
+    ex:avgTransitDays 6 ;
+    ex:cost "425.15"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/3> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/route/4> a ex:Route ;
+    ex:avgTransitDays 5 ;
+    ex:cost "303.24"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/5> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/4> .
+
+<http://example.org/supplychain/product/5> a ex:Product ;
+    ex:category "Food" ;
+    ex:demandLevel "94.86"^^xsd:float ;
+    ex:sku 96965323 ;
+    ex:stockQty 72 ;
+    ex:supplier <http://example.org/supplychain/supplier/1> .
+
+<http://example.org/supplychain/route/6> a ex:Route ;
+    ex:avgTransitDays 14 ;
+    ex:cost "268.49"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/1> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/route/7> a ex:Route ;
+    ex:avgTransitDays 6 ;
+    ex:cost "172.59"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/3> .
+
+<http://example.org/supplychain/route/8> a ex:Route ;
+    ex:avgTransitDays 13 ;
+    ex:cost "358.08"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/2> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/5> .
+
+<http://example.org/supplychain/route/5> a ex:Route ;
+    ex:avgTransitDays 3 ;
+    ex:cost "136.28"^^xsd:float ;
+    ex:destinationWarehouse <http://example.org/supplychain/warehouse/4> ;
+    ex:originWarehouse <http://example.org/supplychain/warehouse/2> .
+
+<http://example.org/supplychain/product/19> a ex:Product ;
+    ex:category "Clothing" ;
+    ex:demandLevel "14.63"^^xsd:float ;
+    ex:sku 34309800 ;
+    ex:stockQty 116 ;
+    ex:supplier <http://example.org/supplychain/supplier/6> .
+
+<http://example.org/supplychain/warehouse/1> a ex:Warehouse ;
+    ex:capacity 986 ;
+    ex:currentLoad 645 ;
+    ex:location "New Carlosbury" .
+
+<http://example.org/supplychain/warehouse/5> a ex:Warehouse ;
+    ex:capacity 1459 ;
+    ex:currentLoad 730 ;
+    ex:location "Sarahborough" .
+
+<http://example.org/supplychain/warehouse/3> a ex:Warehouse ;
+    ex:capacity 1263 ;
+    ex:currentLoad 907 ;
+    ex:location "New Brooke" .
+
+<http://example.org/supplychain/warehouse/4> a ex:Warehouse ;
+    ex:capacity 2172 ;
+    ex:currentLoad 1014 ;
+    ex:location "South Dianeshire" .
+
+<http://example.org/supplychain/warehouse/2> a ex:Warehouse ;
+    ex:capacity 2149 ;
+    ex:currentLoad 1813 ;
+    ex:location "Wilsonshire" .
+

@@ -1,0 +1,1426 @@
+Customer 1 has region value West.
+Customer 1 has tier value 2^^integer.
+Customer 1 is a Customer.
+Customer 10 has region value West.
+Customer 10 has tier value 2^^integer.
+Customer 10 is a Customer.
+Customer 11 has region value North.
+Customer 11 has tier value 4^^integer.
+Customer 11 is a Customer.
+Customer 12 has region value East.
+Customer 12 has tier value 1^^integer.
+Customer 12 is a Customer.
+Customer 13 has region value West.
+Customer 13 has tier value 4^^integer.
+Customer 13 is a Customer.
+Customer 14 has region value North.
+Customer 14 has tier value 4^^integer.
+Customer 14 is a Customer.
+Customer 15 has region value North.
+Customer 15 has tier value 1^^integer.
+Customer 15 is a Customer.
+Customer 2 has region value East.
+Customer 2 has tier value 3^^integer.
+Customer 2 is a Customer.
+Customer 3 has region value West.
+Customer 3 has tier value 3^^integer.
+Customer 3 is a Customer.
+Customer 4 has region value North.
+Customer 4 has tier value 2^^integer.
+Customer 4 is a Customer.
+Customer 5 has region value North.
+Customer 5 has tier value 2^^integer.
+Customer 5 is a Customer.
+Customer 6 has region value West.
+Customer 6 has tier value 3^^integer.
+Customer 6 is a Customer.
+Customer 7 has region value West.
+Customer 7 has tier value 3^^integer.
+Customer 7 is a Customer.
+Customer 8 has region value East.
+Customer 8 has tier value 4^^integer.
+Customer 8 is a Customer.
+Customer 9 has region value South.
+Customer 9 has tier value 4^^integer.
+Customer 9 is a Customer.
+Event 1 has cause value Draw how public feel first sell..
+Event 1 has eventType value Outage.
+Event 1 has supplier Supplier 7.
+Event 1 is a LogisticsEvent.
+Event 10 has cause value War real chance along..
+Event 10 has delayDays value 14^^integer.
+Event 10 has eventType value Delay.
+Event 10 has route Route 5.
+Event 10 has shipment Shipment 28.
+Event 10 has supplier Supplier 10.
+Event 10 is a LogisticsEvent.
+Event 11 has cause value Old challenge camera final together someone..
+Event 11 has eventType value Outage.
+Event 11 has supplier Supplier 2.
+Event 11 is a LogisticsEvent.
+Event 12 has cause value Together decide economic..
+Event 12 has eventType value Inspection.
+Event 12 has warehouse Warehouse 3.
+Event 12 is a LogisticsEvent.
+Event 13 has cause value Government nice themselves wind..
+Event 13 has delayDays value 3^^integer.
+Event 13 has eventType value Delay.
+Event 13 has route Route 5.
+Event 13 has shipment Shipment 36.
+Event 13 has supplier Supplier 3.
+Event 13 is a LogisticsEvent.
+Event 14 has cause value Understand door class son..
+Event 14 has eventType value Outage.
+Event 14 has supplier Supplier 5.
+Event 14 is a LogisticsEvent.
+Event 15 has cause value Thing agent say forward..
+Event 15 has eventType value Damage.
+Event 15 has order Order 41.
+Event 15 has shipment Shipment 49.
+Event 15 has warehouse Warehouse 3.
+Event 15 is a LogisticsEvent.
+Event 16 has cause value Soon ten specific environment skin blue..
+Event 16 has eventType value Damage.
+Event 16 has order Order 30.
+Event 16 has shipment Shipment 47.
+Event 16 has warehouse Warehouse 3.
+Event 16 is a LogisticsEvent.
+Event 17 has cause value Teach develop staff..
+Event 17 has eventType value Shipment Hold.
+Event 17 has order Order 5.
+Event 17 has route Route 8.
+Event 17 has shipment Shipment 36.
+Event 17 is a LogisticsEvent.
+Event 18 has cause value Glass star the development process huge everything..
+Event 18 has eventType value Inspection.
+Event 18 has warehouse Warehouse 3.
+Event 18 is a LogisticsEvent.
+Event 19 has cause value Whom evidence political hundred..
+Event 19 has eventType value Damage.
+Event 19 has order Order 15.
+Event 19 has shipment Shipment 17.
+Event 19 has warehouse Warehouse 4.
+Event 19 is a LogisticsEvent.
+Event 2 has cause value Act perform none beyond..
+Event 2 has eventType value Shipment Hold.
+Event 2 has order Order 10.
+Event 2 has route Route 3.
+Event 2 has shipment Shipment 18.
+Event 2 is a LogisticsEvent.
+Event 20 has cause value Former agree theory end oil worker although..
+Event 20 has eventType value Damage.
+Event 20 has order Order 15.
+Event 20 has shipment Shipment 34.
+Event 20 has warehouse Warehouse 5.
+Event 20 is a LogisticsEvent.
+Event 3 has cause value Defense enter value thing these hard citizen..
+Event 3 has eventType value Shipment Hold.
+Event 3 has order Order 41.
+Event 3 has route Route 2.
+Event 3 has shipment Shipment 41.
+Event 3 is a LogisticsEvent.
+Event 4 has cause value Region particularly would pressure account stage federal..
+Event 4 has eventType value Outage.
+Event 4 has supplier Supplier 1.
+Event 4 is a LogisticsEvent.
+Event 5 has cause value Voice care break blood..
+Event 5 has eventType value Shipment Hold.
+Event 5 has order Order 8.
+Event 5 has route Route 1.
+Event 5 has shipment Shipment 12.
+Event 5 is a LogisticsEvent.
+Event 6 has cause value Choice example decision garden reach table measure..
+Event 6 has eventType value Shipment Hold.
+Event 6 has order Order 3.
+Event 6 has route Route 2.
+Event 6 has shipment Shipment 21.
+Event 6 is a LogisticsEvent.
+Event 7 has cause value Town suffer begin interest everybody..
+Event 7 has eventType value Damage.
+Event 7 has order Order 48.
+Event 7 has shipment Shipment 6.
+Event 7 has warehouse Warehouse 1.
+Event 7 is a LogisticsEvent.
+Event 8 has cause value Four capital woman..
+Event 8 has eventType value Damage.
+Event 8 has order Order 7.
+Event 8 has shipment Shipment 45.
+Event 8 has warehouse Warehouse 2.
+Event 8 is a LogisticsEvent.
+Event 9 has cause value Scientist necessary into act..
+Event 9 has delayDays value 13^^integer.
+Event 9 has eventType value Delay.
+Event 9 has route Route 7.
+Event 9 has shipment Shipment 10.
+Event 9 has supplier Supplier 5.
+Event 9 is a LogisticsEvent.
+Inventory 1 has product Product 8.
+Inventory 1 has reorderPoint value 30^^integer.
+Inventory 1 has reservedQty value 27^^integer.
+Inventory 1 has stockOnHand value 131^^integer.
+Inventory 1 has warehouse Warehouse 4.
+Inventory 1 is an Inventory.
+Inventory 10 has product Product 17.
+Inventory 10 has reorderPoint value 7^^integer.
+Inventory 10 has reservedQty value 40^^integer.
+Inventory 10 has stockOnHand value 107^^integer.
+Inventory 10 has warehouse Warehouse 5.
+Inventory 10 is an Inventory.
+Inventory 11 has product Product 16.
+Inventory 11 has reorderPoint value 5^^integer.
+Inventory 11 has reservedQty value 3^^integer.
+Inventory 11 has stockOnHand value 15^^integer.
+Inventory 11 has warehouse Warehouse 1.
+Inventory 11 is an Inventory.
+Inventory 12 has product Product 5.
+Inventory 12 has reorderPoint value 7^^integer.
+Inventory 12 has reservedQty value 37^^integer.
+Inventory 12 has stockOnHand value 142^^integer.
+Inventory 12 has warehouse Warehouse 1.
+Inventory 12 is an Inventory.
+Inventory 13 has product Product 5.
+Inventory 13 has reorderPoint value 14^^integer.
+Inventory 13 has reservedQty value 4^^integer.
+Inventory 13 has stockOnHand value 62^^integer.
+Inventory 13 has warehouse Warehouse 5.
+Inventory 13 is an Inventory.
+Inventory 14 has product Product 19.
+Inventory 14 has reorderPoint value 18^^integer.
+Inventory 14 has reservedQty value 20^^integer.
+Inventory 14 has stockOnHand value 154^^integer.
+Inventory 14 has warehouse Warehouse 2.
+Inventory 14 is an Inventory.
+Inventory 15 has product Product 14.
+Inventory 15 has reorderPoint value 5^^integer.
+Inventory 15 has reservedQty value 2^^integer.
+Inventory 15 has stockOnHand value 10^^integer.
+Inventory 15 has warehouse Warehouse 1.
+Inventory 15 is an Inventory.
+Inventory 16 has product Product 13.
+Inventory 16 has reorderPoint value 69^^integer.
+Inventory 16 has reservedQty value 61^^integer.
+Inventory 16 has stockOnHand value 269^^integer.
+Inventory 16 has warehouse Warehouse 5.
+Inventory 16 is an Inventory.
+Inventory 17 has product Product 8.
+Inventory 17 has reorderPoint value 76^^integer.
+Inventory 17 has reservedQty value 33^^integer.
+Inventory 17 has stockOnHand value 297^^integer.
+Inventory 17 has warehouse Warehouse 1.
+Inventory 17 is an Inventory.
+Inventory 18 has product Product 2.
+Inventory 18 has reorderPoint value 16^^integer.
+Inventory 18 has reservedQty value 2^^integer.
+Inventory 18 has stockOnHand value 127^^integer.
+Inventory 18 has warehouse Warehouse 2.
+Inventory 18 is an Inventory.
+Inventory 19 has product Product 12.
+Inventory 19 has reorderPoint value 21^^integer.
+Inventory 19 has reservedQty value 56^^integer.
+Inventory 19 has stockOnHand value 231^^integer.
+Inventory 19 has warehouse Warehouse 1.
+Inventory 19 is an Inventory.
+Inventory 2 has product Product 18.
+Inventory 2 has reorderPoint value 9^^integer.
+Inventory 2 has reservedQty value 11^^integer.
+Inventory 2 has stockOnHand value 37^^integer.
+Inventory 2 has warehouse Warehouse 2.
+Inventory 2 is an Inventory.
+Inventory 20 has product Product 14.
+Inventory 20 has reorderPoint value 11^^integer.
+Inventory 20 has reservedQty value 10^^integer.
+Inventory 20 has stockOnHand value 75^^integer.
+Inventory 20 has warehouse Warehouse 5.
+Inventory 20 is an Inventory.
+Inventory 21 has product Product 2.
+Inventory 21 has reorderPoint value 19^^integer.
+Inventory 21 has reservedQty value 17^^integer.
+Inventory 21 has stockOnHand value 107^^integer.
+Inventory 21 has warehouse Warehouse 4.
+Inventory 21 is an Inventory.
+Inventory 22 has product Product 19.
+Inventory 22 has reorderPoint value 34^^integer.
+Inventory 22 has reservedQty value 37^^integer.
+Inventory 22 has stockOnHand value 258^^integer.
+Inventory 22 has warehouse Warehouse 3.
+Inventory 22 is an Inventory.
+Inventory 23 has product Product 19.
+Inventory 23 has reorderPoint value 8^^integer.
+Inventory 23 has reservedQty value 4^^integer.
+Inventory 23 has stockOnHand value 90^^integer.
+Inventory 23 has warehouse Warehouse 2.
+Inventory 23 is an Inventory.
+Inventory 24 has product Product 17.
+Inventory 24 has reorderPoint value 73^^integer.
+Inventory 24 has reservedQty value 83^^integer.
+Inventory 24 has stockOnHand value 282^^integer.
+Inventory 24 has warehouse Warehouse 2.
+Inventory 24 is an Inventory.
+Inventory 25 has product Product 6.
+Inventory 25 has reorderPoint value 17^^integer.
+Inventory 25 has reservedQty value 1^^integer.
+Inventory 25 has stockOnHand value 62^^integer.
+Inventory 25 has warehouse Warehouse 2.
+Inventory 25 is an Inventory.
+Inventory 26 has product Product 11.
+Inventory 26 has reorderPoint value 27^^integer.
+Inventory 26 has reservedQty value 74^^integer.
+Inventory 26 has stockOnHand value 249^^integer.
+Inventory 26 has warehouse Warehouse 3.
+Inventory 26 is an Inventory.
+Inventory 27 has product Product 16.
+Inventory 27 has reorderPoint value 5^^integer.
+Inventory 27 has reservedQty value 3^^integer.
+Inventory 27 has stockOnHand value 17^^integer.
+Inventory 27 has warehouse Warehouse 3.
+Inventory 27 is an Inventory.
+Inventory 28 has product Product 3.
+Inventory 28 has reorderPoint value 33^^integer.
+Inventory 28 has reservedQty value 26^^integer.
+Inventory 28 has stockOnHand value 204^^integer.
+Inventory 28 has warehouse Warehouse 4.
+Inventory 28 is an Inventory.
+Inventory 29 has product Product 19.
+Inventory 29 has reorderPoint value 46^^integer.
+Inventory 29 has reservedQty value 4^^integer.
+Inventory 29 has stockOnHand value 286^^integer.
+Inventory 29 has warehouse Warehouse 2.
+Inventory 29 is an Inventory.
+Inventory 3 has product Product 4.
+Inventory 3 has reorderPoint value 58^^integer.
+Inventory 3 has reservedQty value 26^^integer.
+Inventory 3 has stockOnHand value 201^^integer.
+Inventory 3 has warehouse Warehouse 1.
+Inventory 3 is an Inventory.
+Inventory 30 has product Product 6.
+Inventory 30 has reorderPoint value 5^^integer.
+Inventory 30 has reservedQty value 0^^integer.
+Inventory 30 has stockOnHand value 10^^integer.
+Inventory 30 has warehouse Warehouse 5.
+Inventory 30 is an Inventory.
+Inventory 31 has product Product 12.
+Inventory 31 has reorderPoint value 5^^integer.
+Inventory 31 has reservedQty value 1^^integer.
+Inventory 31 has stockOnHand value 55^^integer.
+Inventory 31 has warehouse Warehouse 1.
+Inventory 31 is an Inventory.
+Inventory 32 has product Product 13.
+Inventory 32 has reorderPoint value 19^^integer.
+Inventory 32 has reservedQty value 25^^integer.
+Inventory 32 has stockOnHand value 82^^integer.
+Inventory 32 has warehouse Warehouse 2.
+Inventory 32 is an Inventory.
+Inventory 33 has product Product 15.
+Inventory 33 has reorderPoint value 17^^integer.
+Inventory 33 has reservedQty value 10^^integer.
+Inventory 33 has stockOnHand value 65^^integer.
+Inventory 33 has warehouse Warehouse 1.
+Inventory 33 is an Inventory.
+Inventory 34 has product Product 4.
+Inventory 34 has reorderPoint value 56^^integer.
+Inventory 34 has reservedQty value 7^^integer.
+Inventory 34 has stockOnHand value 266^^integer.
+Inventory 34 has warehouse Warehouse 1.
+Inventory 34 is an Inventory.
+Inventory 35 has product Product 14.
+Inventory 35 has reorderPoint value 49^^integer.
+Inventory 35 has reservedQty value 1^^integer.
+Inventory 35 has stockOnHand value 225^^integer.
+Inventory 35 has warehouse Warehouse 2.
+Inventory 35 is an Inventory.
+Inventory 36 has product Product 14.
+Inventory 36 has reorderPoint value 55^^integer.
+Inventory 36 has reservedQty value 55^^integer.
+Inventory 36 has stockOnHand value 196^^integer.
+Inventory 36 has warehouse Warehouse 2.
+Inventory 36 is an Inventory.
+Inventory 37 has product Product 15.
+Inventory 37 has reorderPoint value 42^^integer.
+Inventory 37 has reservedQty value 17^^integer.
+Inventory 37 has stockOnHand value 247^^integer.
+Inventory 37 has warehouse Warehouse 3.
+Inventory 37 is an Inventory.
+Inventory 38 has product Product 19.
+Inventory 38 has reorderPoint value 5^^integer.
+Inventory 38 has reservedQty value 8^^integer.
+Inventory 38 has stockOnHand value 24^^integer.
+Inventory 38 has warehouse Warehouse 3.
+Inventory 38 is an Inventory.
+Inventory 39 has product Product 10.
+Inventory 39 has reorderPoint value 11^^integer.
+Inventory 39 has reservedQty value 16^^integer.
+Inventory 39 has stockOnHand value 48^^integer.
+Inventory 39 has warehouse Warehouse 5.
+Inventory 39 is an Inventory.
+Inventory 4 has product Product 9.
+Inventory 4 has reorderPoint value 32^^integer.
+Inventory 4 has reservedQty value 76^^integer.
+Inventory 4 has stockOnHand value 221^^integer.
+Inventory 4 has warehouse Warehouse 1.
+Inventory 4 is an Inventory.
+Inventory 40 has product Product 12.
+Inventory 40 has reorderPoint value 9^^integer.
+Inventory 40 has reservedQty value 0^^integer.
+Inventory 40 has stockOnHand value 34^^integer.
+Inventory 40 has warehouse Warehouse 2.
+Inventory 40 is an Inventory.
+Inventory 5 has product Product 13.
+Inventory 5 has reorderPoint value 10^^integer.
+Inventory 5 has reservedQty value 2^^integer.
+Inventory 5 has stockOnHand value 55^^integer.
+Inventory 5 has warehouse Warehouse 5.
+Inventory 5 is an Inventory.
+Inventory 6 has product Product 19.
+Inventory 6 has reorderPoint value 51^^integer.
+Inventory 6 has reservedQty value 68^^integer.
+Inventory 6 has stockOnHand value 265^^integer.
+Inventory 6 has warehouse Warehouse 2.
+Inventory 6 is an Inventory.
+Inventory 7 has product Product 2.
+Inventory 7 has reorderPoint value 5^^integer.
+Inventory 7 has reservedQty value 5^^integer.
+Inventory 7 has stockOnHand value 19^^integer.
+Inventory 7 has warehouse Warehouse 1.
+Inventory 7 is an Inventory.
+Inventory 8 has product Product 13.
+Inventory 8 has reorderPoint value 5^^integer.
+Inventory 8 has reservedQty value 0^^integer.
+Inventory 8 has stockOnHand value 14^^integer.
+Inventory 8 has warehouse Warehouse 2.
+Inventory 8 is an Inventory.
+Inventory 9 has product Product 18.
+Inventory 9 has reorderPoint value 15^^integer.
+Inventory 9 has reservedQty value 48^^integer.
+Inventory 9 has stockOnHand value 233^^integer.
+Inventory 9 has warehouse Warehouse 1.
+Inventory 9 is an Inventory.
+Order 1 has customer Customer 3.
+Order 1 has date value 2023-01-22^^date.
+Order 1 has priority value 3^^integer.
+Order 1 has product Product 19.
+Order 1 has status value Shipped.
+Order 1 has warehouse Warehouse 1.
+Order 1 is an Order.
+Order 10 has customer Customer 15.
+Order 10 has date value 2023-01-27^^date.
+Order 10 has priority value 2^^integer.
+Order 10 has product Product 8.
+Order 10 has status value Pending.
+Order 10 has warehouse Warehouse 5.
+Order 10 is an Order.
+Order 11 has customer Customer 11.
+Order 11 has date value 2023-08-14^^date.
+Order 11 has priority value 4^^integer.
+Order 11 has product Product 12.
+Order 11 has status value Shipped.
+Order 11 has warehouse Warehouse 2.
+Order 11 is an Order.
+Order 12 has customer Customer 10.
+Order 12 has date value 2023-10-04^^date.
+Order 12 has priority value 1^^integer.
+Order 12 has product Product 12.
+Order 12 has status value Shipped.
+Order 12 has warehouse Warehouse 2.
+Order 12 is an Order.
+Order 13 has customer Customer 2.
+Order 13 has date value 2023-10-13^^date.
+Order 13 has priority value 4^^integer.
+Order 13 has product Product 5.
+Order 13 has status value Delivered.
+Order 13 has warehouse Warehouse 5.
+Order 13 is an Order.
+Order 14 has customer Customer 10.
+Order 14 has date value 2023-04-07^^date.
+Order 14 has priority value 1^^integer.
+Order 14 has product Product 7.
+Order 14 has status value Shipped.
+Order 14 has warehouse Warehouse 4.
+Order 14 is an Order.
+Order 15 has customer Customer 1.
+Order 15 has date value 2023-10-11^^date.
+Order 15 has priority value 1^^integer.
+Order 15 has product Product 4.
+Order 15 has status value Pending.
+Order 15 has warehouse Warehouse 2.
+Order 15 is an Order.
+Order 16 has customer Customer 8.
+Order 16 has date value 2023-11-13^^date.
+Order 16 has priority value 3^^integer.
+Order 16 has product Product 6.
+Order 16 has status value Pending.
+Order 16 has warehouse Warehouse 4.
+Order 16 is an Order.
+Order 17 has customer Customer 1.
+Order 17 has date value 2023-10-31^^date.
+Order 17 has priority value 1^^integer.
+Order 17 has product Product 13.
+Order 17 has status value Delivered.
+Order 17 has warehouse Warehouse 2.
+Order 17 is an Order.
+Order 18 has customer Customer 9.
+Order 18 has date value 2023-05-27^^date.
+Order 18 has priority value 4^^integer.
+Order 18 has product Product 20.
+Order 18 has status value Delivered.
+Order 18 has warehouse Warehouse 2.
+Order 18 is an Order.
+Order 19 has customer Customer 11.
+Order 19 has date value 2023-01-04^^date.
+Order 19 has priority value 2^^integer.
+Order 19 has product Product 15.
+Order 19 has status value Pending.
+Order 19 has warehouse Warehouse 3.
+Order 19 is an Order.
+Order 2 has customer Customer 8.
+Order 2 has date value 2023-08-26^^date.
+Order 2 has priority value 4^^integer.
+Order 2 has product Product 17.
+Order 2 has status value Shipped.
+Order 2 has warehouse Warehouse 4.
+Order 2 is an Order.
+Order 20 has customer Customer 6.
+Order 20 has date value 2023-02-04^^date.
+Order 20 has priority value 1^^integer.
+Order 20 has product Product 3.
+Order 20 has status value Pending.
+Order 20 has warehouse Warehouse 2.
+Order 20 is an Order.
+Order 21 has customer Customer 7.
+Order 21 has date value 2023-07-11^^date.
+Order 21 has priority value 3^^integer.
+Order 21 has product Product 8.
+Order 21 has status value Delivered.
+Order 21 has warehouse Warehouse 1.
+Order 21 is an Order.
+Order 22 has customer Customer 13.
+Order 22 has date value 2023-02-18^^date.
+Order 22 has priority value 4^^integer.
+Order 22 has product Product 20.
+Order 22 has status value Pending.
+Order 22 has warehouse Warehouse 5.
+Order 22 is an Order.
+Order 23 has customer Customer 10.
+Order 23 has date value 2023-01-17^^date.
+Order 23 has priority value 1^^integer.
+Order 23 has product Product 16.
+Order 23 has status value Delivered.
+Order 23 has warehouse Warehouse 5.
+Order 23 is an Order.
+Order 24 has customer Customer 7.
+Order 24 has date value 2023-06-21^^date.
+Order 24 has priority value 4^^integer.
+Order 24 has product Product 13.
+Order 24 has status value Delivered.
+Order 24 has warehouse Warehouse 4.
+Order 24 is an Order.
+Order 25 has customer Customer 10.
+Order 25 has date value 2023-08-08^^date.
+Order 25 has priority value 3^^integer.
+Order 25 has product Product 18.
+Order 25 has status value Pending.
+Order 25 has warehouse Warehouse 2.
+Order 25 is an Order.
+Order 26 has customer Customer 3.
+Order 26 has date value 2023-06-07^^date.
+Order 26 has priority value 3^^integer.
+Order 26 has product Product 10.
+Order 26 has status value Pending.
+Order 26 has warehouse Warehouse 1.
+Order 26 is an Order.
+Order 27 has customer Customer 2.
+Order 27 has date value 2023-02-15^^date.
+Order 27 has priority value 4^^integer.
+Order 27 has product Product 19.
+Order 27 has status value Delivered.
+Order 27 has warehouse Warehouse 4.
+Order 27 is an Order.
+Order 28 has customer Customer 9.
+Order 28 has date value 2023-01-06^^date.
+Order 28 has priority value 1^^integer.
+Order 28 has product Product 17.
+Order 28 has status value Shipped.
+Order 28 has warehouse Warehouse 3.
+Order 28 is an Order.
+Order 29 has customer Customer 8.
+Order 29 has date value 2023-04-09^^date.
+Order 29 has priority value 2^^integer.
+Order 29 has product Product 19.
+Order 29 has status value Shipped.
+Order 29 has warehouse Warehouse 4.
+Order 29 is an Order.
+Order 3 has customer Customer 14.
+Order 3 has date value 2023-06-07^^date.
+Order 3 has priority value 1^^integer.
+Order 3 has product Product 20.
+Order 3 has status value Shipped.
+Order 3 has warehouse Warehouse 5.
+Order 3 is an Order.
+Order 30 has customer Customer 13.
+Order 30 has date value 2023-08-21^^date.
+Order 30 has priority value 3^^integer.
+Order 30 has product Product 5.
+Order 30 has status value Delivered.
+Order 30 has warehouse Warehouse 4.
+Order 30 is an Order.
+Order 31 has customer Customer 12.
+Order 31 has date value 2023-02-06^^date.
+Order 31 has priority value 1^^integer.
+Order 31 has product Product 9.
+Order 31 has status value Delivered.
+Order 31 has warehouse Warehouse 2.
+Order 31 is an Order.
+Order 32 has customer Customer 10.
+Order 32 has date value 2023-10-07^^date.
+Order 32 has priority value 1^^integer.
+Order 32 has product Product 12.
+Order 32 has status value Delivered.
+Order 32 has warehouse Warehouse 3.
+Order 32 is an Order.
+Order 33 has customer Customer 7.
+Order 33 has date value 2023-12-15^^date.
+Order 33 has priority value 2^^integer.
+Order 33 has product Product 1.
+Order 33 has status value Delivered.
+Order 33 has warehouse Warehouse 4.
+Order 33 is an Order.
+Order 34 has customer Customer 9.
+Order 34 has date value 2023-10-29^^date.
+Order 34 has priority value 3^^integer.
+Order 34 has product Product 1.
+Order 34 has status value Shipped.
+Order 34 has warehouse Warehouse 1.
+Order 34 is an Order.
+Order 35 has customer Customer 4.
+Order 35 has date value 2023-06-30^^date.
+Order 35 has priority value 3^^integer.
+Order 35 has product Product 15.
+Order 35 has status value Pending.
+Order 35 has warehouse Warehouse 1.
+Order 35 is an Order.
+Order 36 has customer Customer 13.
+Order 36 has date value 2023-04-05^^date.
+Order 36 has priority value 1^^integer.
+Order 36 has product Product 2.
+Order 36 has status value Delivered.
+Order 36 has warehouse Warehouse 5.
+Order 36 is an Order.
+Order 37 has customer Customer 4.
+Order 37 has date value 2023-04-09^^date.
+Order 37 has priority value 1^^integer.
+Order 37 has product Product 16.
+Order 37 has status value Shipped.
+Order 37 has warehouse Warehouse 3.
+Order 37 is an Order.
+Order 38 has customer Customer 1.
+Order 38 has date value 2023-07-07^^date.
+Order 38 has priority value 2^^integer.
+Order 38 has product Product 8.
+Order 38 has status value Shipped.
+Order 38 has warehouse Warehouse 3.
+Order 38 is an Order.
+Order 39 has customer Customer 8.
+Order 39 has date value 2023-04-26^^date.
+Order 39 has priority value 2^^integer.
+Order 39 has product Product 13.
+Order 39 has status value Delivered.
+Order 39 has warehouse Warehouse 5.
+Order 39 is an Order.
+Order 4 has customer Customer 8.
+Order 4 has date value 2023-02-07^^date.
+Order 4 has priority value 1^^integer.
+Order 4 has product Product 10.
+Order 4 has status value Delivered.
+Order 4 has warehouse Warehouse 4.
+Order 4 is an Order.
+Order 40 has customer Customer 14.
+Order 40 has date value 2023-07-10^^date.
+Order 40 has priority value 3^^integer.
+Order 40 has product Product 1.
+Order 40 has status value Pending.
+Order 40 has warehouse Warehouse 4.
+Order 40 is an Order.
+Order 41 has customer Customer 14.
+Order 41 has date value 2023-09-10^^date.
+Order 41 has priority value 4^^integer.
+Order 41 has product Product 16.
+Order 41 has status value Shipped.
+Order 41 has warehouse Warehouse 3.
+Order 41 is an Order.
+Order 42 has customer Customer 12.
+Order 42 has date value 2023-06-10^^date.
+Order 42 has priority value 3^^integer.
+Order 42 has product Product 7.
+Order 42 has status value Pending.
+Order 42 has warehouse Warehouse 1.
+Order 42 is an Order.
+Order 43 has customer Customer 3.
+Order 43 has date value 2023-09-13^^date.
+Order 43 has priority value 1^^integer.
+Order 43 has product Product 5.
+Order 43 has status value Shipped.
+Order 43 has warehouse Warehouse 1.
+Order 43 is an Order.
+Order 44 has customer Customer 7.
+Order 44 has date value 2023-11-19^^date.
+Order 44 has priority value 3^^integer.
+Order 44 has product Product 3.
+Order 44 has status value Pending.
+Order 44 has warehouse Warehouse 2.
+Order 44 is an Order.
+Order 45 has customer Customer 15.
+Order 45 has date value 2023-05-08^^date.
+Order 45 has priority value 4^^integer.
+Order 45 has product Product 12.
+Order 45 has status value Pending.
+Order 45 has warehouse Warehouse 3.
+Order 45 is an Order.
+Order 46 has customer Customer 12.
+Order 46 has date value 2023-01-18^^date.
+Order 46 has priority value 2^^integer.
+Order 46 has product Product 16.
+Order 46 has status value Pending.
+Order 46 has warehouse Warehouse 4.
+Order 46 is an Order.
+Order 47 has customer Customer 2.
+Order 47 has date value 2023-10-08^^date.
+Order 47 has priority value 4^^integer.
+Order 47 has product Product 19.
+Order 47 has status value Delivered.
+Order 47 has warehouse Warehouse 5.
+Order 47 is an Order.
+Order 48 has customer Customer 2.
+Order 48 has date value 2023-08-11^^date.
+Order 48 has priority value 4^^integer.
+Order 48 has product Product 5.
+Order 48 has status value Delivered.
+Order 48 has warehouse Warehouse 5.
+Order 48 is an Order.
+Order 49 has customer Customer 7.
+Order 49 has date value 2023-02-23^^date.
+Order 49 has priority value 4^^integer.
+Order 49 has product Product 14.
+Order 49 has status value Shipped.
+Order 49 has warehouse Warehouse 4.
+Order 49 is an Order.
+Order 5 has customer Customer 2.
+Order 5 has date value 2023-08-18^^date.
+Order 5 has priority value 4^^integer.
+Order 5 has product Product 6.
+Order 5 has status value Delivered.
+Order 5 has warehouse Warehouse 2.
+Order 5 is an Order.
+Order 50 has customer Customer 15.
+Order 50 has date value 2023-02-27^^date.
+Order 50 has priority value 2^^integer.
+Order 50 has product Product 5.
+Order 50 has status value Delivered.
+Order 50 has warehouse Warehouse 2.
+Order 50 is an Order.
+Order 6 has customer Customer 15.
+Order 6 has date value 2023-12-31^^date.
+Order 6 has priority value 1^^integer.
+Order 6 has product Product 15.
+Order 6 has status value Delivered.
+Order 6 has warehouse Warehouse 2.
+Order 6 is an Order.
+Order 7 has customer Customer 6.
+Order 7 has date value 2023-02-20^^date.
+Order 7 has priority value 2^^integer.
+Order 7 has product Product 11.
+Order 7 has status value Delivered.
+Order 7 has warehouse Warehouse 5.
+Order 7 is an Order.
+Order 8 has customer Customer 7.
+Order 8 has date value 2023-09-21^^date.
+Order 8 has priority value 1^^integer.
+Order 8 has product Product 5.
+Order 8 has status value Pending.
+Order 8 has warehouse Warehouse 4.
+Order 8 is an Order.
+Order 9 has customer Customer 2.
+Order 9 has date value 2023-10-10^^date.
+Order 9 has priority value 2^^integer.
+Order 9 has product Product 1.
+Order 9 has status value Shipped.
+Order 9 has warehouse Warehouse 1.
+Order 9 is an Order.
+Product 1 has category value Clothing.
+Product 1 has demandLevel value 47.57^^float.
+Product 1 has sku value 3413163^^integer.
+Product 1 has stockQty value 148^^integer.
+Product 1 has supplier Supplier 10.
+Product 1 is a Product.
+Product 10 has category value Electronics.
+Product 10 has demandLevel value 97.46^^float.
+Product 10 has sku value 91171822^^integer.
+Product 10 has stockQty value 142^^integer.
+Product 10 has supplier Supplier 7.
+Product 10 is a Product.
+Product 11 has category value Electronics.
+Product 11 has demandLevel value 96.62^^float.
+Product 11 has sku value 89638346^^integer.
+Product 11 has stockQty value 164^^integer.
+Product 11 has supplier Supplier 4.
+Product 11 is a Product.
+Product 12 has category value Food.
+Product 12 has demandLevel value 32.66^^float.
+Product 12 has sku value 13315093^^integer.
+Product 12 has stockQty value 57^^integer.
+Product 12 has supplier Supplier 7.
+Product 12 is a Product.
+Product 13 has category value Clothing.
+Product 13 has demandLevel value 54.75^^float.
+Product 13 has sku value 10310514^^integer.
+Product 13 has stockQty value 43^^integer.
+Product 13 has supplier Supplier 3.
+Product 13 is a Product.
+Product 14 has category value Electronics.
+Product 14 has demandLevel value 37.08^^float.
+Product 14 has sku value 82997378^^integer.
+Product 14 has stockQty value 88^^integer.
+Product 14 has supplier Supplier 6.
+Product 14 is a Product.
+Product 15 has category value Electronics.
+Product 15 has demandLevel value 35.64^^float.
+Product 15 has sku value 56670108^^integer.
+Product 15 has stockQty value 135^^integer.
+Product 15 has supplier Supplier 2.
+Product 15 is a Product.
+Product 16 has category value Electronics.
+Product 16 has demandLevel value 13.32^^float.
+Product 16 has sku value 38726244^^integer.
+Product 16 has stockQty value 117^^integer.
+Product 16 has supplier Supplier 10.
+Product 16 is a Product.
+Product 17 has category value Food.
+Product 17 has demandLevel value 64.86^^float.
+Product 17 has sku value 10801325^^integer.
+Product 17 has stockQty value 158^^integer.
+Product 17 has supplier Supplier 9.
+Product 17 is a Product.
+Product 18 has category value Food.
+Product 18 has demandLevel value 55.24^^float.
+Product 18 has sku value 2606478^^integer.
+Product 18 has stockQty value 163^^integer.
+Product 18 has supplier Supplier 5.
+Product 18 is a Product.
+Product 19 has category value Clothing.
+Product 19 has demandLevel value 14.63^^float.
+Product 19 has sku value 34309800^^integer.
+Product 19 has stockQty value 116^^integer.
+Product 19 has supplier Supplier 6.
+Product 19 is a Product.
+Product 2 has category value Clothing.
+Product 2 has demandLevel value 29.99^^float.
+Product 2 has sku value 53419285^^integer.
+Product 2 has stockQty value 166^^integer.
+Product 2 has supplier Supplier 10.
+Product 2 is a Product.
+Product 20 has category value Food.
+Product 20 has demandLevel value 35.08^^float.
+Product 20 has sku value 88208122^^integer.
+Product 20 has stockQty value 143^^integer.
+Product 20 has supplier Supplier 4.
+Product 20 is a Product.
+Product 3 has category value Food.
+Product 3 has demandLevel value 20.79^^float.
+Product 3 has sku value 83503056^^integer.
+Product 3 has stockQty value 145^^integer.
+Product 3 has supplier Supplier 3.
+Product 3 is a Product.
+Product 4 has category value Clothing.
+Product 4 has demandLevel value 40.39^^float.
+Product 4 has sku value 53767243^^integer.
+Product 4 has stockQty value 149^^integer.
+Product 4 has supplier Supplier 7.
+Product 4 is a Product.
+Product 5 has category value Food.
+Product 5 has demandLevel value 94.86^^float.
+Product 5 has sku value 96965323^^integer.
+Product 5 has stockQty value 72^^integer.
+Product 5 has supplier Supplier 1.
+Product 5 is a Product.
+Product 6 has category value Electronics.
+Product 6 has demandLevel value 39.09^^float.
+Product 6 has sku value 22691667^^integer.
+Product 6 has stockQty value 191^^integer.
+Product 6 has supplier Supplier 4.
+Product 6 is a Product.
+Product 7 has category value Food.
+Product 7 has demandLevel value 56.69^^float.
+Product 7 has sku value 1845145^^integer.
+Product 7 has stockQty value 179^^integer.
+Product 7 has supplier Supplier 4.
+Product 7 is a Product.
+Product 8 has category value Clothing.
+Product 8 has demandLevel value 73.27^^float.
+Product 8 has sku value 82814899^^integer.
+Product 8 has stockQty value 179^^integer.
+Product 8 has supplier Supplier 5.
+Product 8 is a Product.
+Product 9 has category value Electronics.
+Product 9 has demandLevel value 42.73^^float.
+Product 9 has sku value 80957012^^integer.
+Product 9 has stockQty value 87^^integer.
+Product 9 has supplier Supplier 7.
+Product 9 is a Product.
+Route 1 has avgTransitDays value 6^^integer.
+Route 1 has cost value 425.15^^float.
+Route 1 has destinationWarehouse Warehouse 3.
+Route 1 has originWarehouse Warehouse 4.
+Route 1 is a Route.
+Route 2 has avgTransitDays value 4^^integer.
+Route 2 has cost value 335.13^^float.
+Route 2 has destinationWarehouse Warehouse 4.
+Route 2 has originWarehouse Warehouse 2.
+Route 2 is a Route.
+Route 3 has avgTransitDays value 2^^integer.
+Route 3 has cost value 294.71^^float.
+Route 3 has destinationWarehouse Warehouse 5.
+Route 3 has originWarehouse Warehouse 1.
+Route 3 is a Route.
+Route 4 has avgTransitDays value 5^^integer.
+Route 4 has cost value 303.24^^float.
+Route 4 has destinationWarehouse Warehouse 5.
+Route 4 has originWarehouse Warehouse 4.
+Route 4 is a Route.
+Route 5 has avgTransitDays value 3^^integer.
+Route 5 has cost value 136.28^^float.
+Route 5 has destinationWarehouse Warehouse 4.
+Route 5 has originWarehouse Warehouse 2.
+Route 5 is a Route.
+Route 6 has avgTransitDays value 14^^integer.
+Route 6 has cost value 268.49^^float.
+Route 6 has destinationWarehouse Warehouse 1.
+Route 6 has originWarehouse Warehouse 3.
+Route 6 is a Route.
+Route 7 has avgTransitDays value 6^^integer.
+Route 7 has cost value 172.59^^float.
+Route 7 has destinationWarehouse Warehouse 2.
+Route 7 has originWarehouse Warehouse 3.
+Route 7 is a Route.
+Route 8 has avgTransitDays value 13^^integer.
+Route 8 has cost value 358.08^^float.
+Route 8 has destinationWarehouse Warehouse 2.
+Route 8 has originWarehouse Warehouse 5.
+Route 8 is a Route.
+Shipment 1 has actualDeliveryDate value 2023-01-09^^date.
+Shipment 1 has expectedDeliveryDate value 2023-01-08^^date.
+Shipment 1 has fromWarehouse Warehouse 2.
+Shipment 1 has order Order 19.
+Shipment 1 has route Route 5.
+Shipment 1 has shipmentStatus value Delayed.
+Shipment 1 has shippedDate value 2023-01-05^^date.
+Shipment 1 has toWarehouse Warehouse 4.
+Shipment 1 is a Shipment.
+Shipment 10 has actualDeliveryDate value 2023-03-03^^date.
+Shipment 10 has expectedDeliveryDate value 2023-03-01^^date.
+Shipment 10 has fromWarehouse Warehouse 5.
+Shipment 10 has order Order 27.
+Shipment 10 has route Route 8.
+Shipment 10 has shipmentStatus value Delayed.
+Shipment 10 has shippedDate value 2023-02-16^^date.
+Shipment 10 has toWarehouse Warehouse 2.
+Shipment 10 is a Shipment.
+Shipment 11 has actualDeliveryDate value 2023-03-06^^date.
+Shipment 11 has expectedDeliveryDate value 2023-03-04^^date.
+Shipment 11 has fromWarehouse Warehouse 3.
+Shipment 11 has order Order 22.
+Shipment 11 has route Route 6.
+Shipment 11 has shipmentStatus value Delayed.
+Shipment 11 has shippedDate value 2023-02-18^^date.
+Shipment 11 has toWarehouse Warehouse 1.
+Shipment 11 is a Shipment.
+Shipment 12 has actualDeliveryDate value 2023-03-02^^date.
+Shipment 12 has expectedDeliveryDate value 2023-02-27^^date.
+Shipment 12 has fromWarehouse Warehouse 4.
+Shipment 12 has order Order 7.
+Shipment 12 has route Route 4.
+Shipment 12 has shipmentStatus value Late.
+Shipment 12 has shippedDate value 2023-02-22^^date.
+Shipment 12 has toWarehouse Warehouse 5.
+Shipment 12 is a Shipment.
+Shipment 13 has actualDeliveryDate value 2023-03-12^^date.
+Shipment 13 has expectedDeliveryDate value 2023-03-12^^date.
+Shipment 13 has fromWarehouse Warehouse 5.
+Shipment 13 has order Order 49.
+Shipment 13 has route Route 8.
+Shipment 13 has shipmentStatus value On Time.
+Shipment 13 has shippedDate value 2023-02-27^^date.
+Shipment 13 has toWarehouse Warehouse 2.
+Shipment 13 is a Shipment.
+Shipment 14 has actualDeliveryDate value 2023-03-18^^date.
+Shipment 14 has expectedDeliveryDate value 2023-03-16^^date.
+Shipment 14 has fromWarehouse Warehouse 3.
+Shipment 14 has order Order 50.
+Shipment 14 has route Route 6.
+Shipment 14 has shipmentStatus value Delayed.
+Shipment 14 has shippedDate value 2023-03-02^^date.
+Shipment 14 has toWarehouse Warehouse 1.
+Shipment 14 is a Shipment.
+Shipment 15 has actualDeliveryDate value 2023-04-17^^date.
+Shipment 15 has expectedDeliveryDate value 2023-04-15^^date.
+Shipment 15 has fromWarehouse Warehouse 3.
+Shipment 15 has order Order 36.
+Shipment 15 has route Route 7.
+Shipment 15 has shipmentStatus value Delayed.
+Shipment 15 has shippedDate value 2023-04-09^^date.
+Shipment 15 has toWarehouse Warehouse 2.
+Shipment 15 is a Shipment.
+Shipment 16 has actualDeliveryDate value 2023-04-13^^date.
+Shipment 16 has expectedDeliveryDate value 2023-04-13^^date.
+Shipment 16 has fromWarehouse Warehouse 4.
+Shipment 16 has order Order 14.
+Shipment 16 has route Route 4.
+Shipment 16 has shipmentStatus value On Time.
+Shipment 16 has shippedDate value 2023-04-08^^date.
+Shipment 16 has toWarehouse Warehouse 5.
+Shipment 16 is a Shipment.
+Shipment 17 has actualDeliveryDate value 2023-04-12^^date.
+Shipment 17 has expectedDeliveryDate value 2023-04-12^^date.
+Shipment 17 has fromWarehouse Warehouse 2.
+Shipment 17 has order Order 37.
+Shipment 17 has route Route 5.
+Shipment 17 has shipmentStatus value On Time.
+Shipment 17 has shippedDate value 2023-04-09^^date.
+Shipment 17 has toWarehouse Warehouse 4.
+Shipment 17 is a Shipment.
+Shipment 18 has actualDeliveryDate value 2023-04-28^^date.
+Shipment 18 has expectedDeliveryDate value 2023-04-25^^date.
+Shipment 18 has fromWarehouse Warehouse 3.
+Shipment 18 has order Order 29.
+Shipment 18 has route Route 6.
+Shipment 18 has shipmentStatus value Late.
+Shipment 18 has shippedDate value 2023-04-11^^date.
+Shipment 18 has toWarehouse Warehouse 1.
+Shipment 18 is a Shipment.
+Shipment 19 has actualDeliveryDate value 2023-05-03^^date.
+Shipment 19 has expectedDeliveryDate value 2023-05-03^^date.
+Shipment 19 has fromWarehouse Warehouse 2.
+Shipment 19 has order Order 39.
+Shipment 19 has route Route 5.
+Shipment 19 has shipmentStatus value On Time.
+Shipment 19 has shippedDate value 2023-04-30^^date.
+Shipment 19 has toWarehouse Warehouse 4.
+Shipment 19 is a Shipment.
+Shipment 2 has actualDeliveryDate value 2023-01-11^^date.
+Shipment 2 has expectedDeliveryDate value 2023-01-09^^date.
+Shipment 2 has fromWarehouse Warehouse 2.
+Shipment 2 has order Order 28.
+Shipment 2 has route Route 5.
+Shipment 2 has shipmentStatus value Delayed.
+Shipment 2 has shippedDate value 2023-01-06^^date.
+Shipment 2 has toWarehouse Warehouse 4.
+Shipment 2 is a Shipment.
+Shipment 20 has actualDeliveryDate value 2023-05-16^^date.
+Shipment 20 has expectedDeliveryDate value 2023-05-14^^date.
+Shipment 20 has fromWarehouse Warehouse 3.
+Shipment 20 has order Order 45.
+Shipment 20 has route Route 7.
+Shipment 20 has shipmentStatus value Delayed.
+Shipment 20 has shippedDate value 2023-05-08^^date.
+Shipment 20 has toWarehouse Warehouse 2.
+Shipment 20 is a Shipment.
+Shipment 21 has actualDeliveryDate value 2023-06-14^^date.
+Shipment 21 has expectedDeliveryDate value 2023-06-14^^date.
+Shipment 21 has fromWarehouse Warehouse 3.
+Shipment 21 has order Order 18.
+Shipment 21 has route Route 6.
+Shipment 21 has shipmentStatus value On Time.
+Shipment 21 has shippedDate value 2023-05-31^^date.
+Shipment 21 has toWarehouse Warehouse 1.
+Shipment 21 is a Shipment.
+Shipment 22 has actualDeliveryDate value 2023-06-18^^date.
+Shipment 22 has expectedDeliveryDate value 2023-06-17^^date.
+Shipment 22 has fromWarehouse Warehouse 3.
+Shipment 22 has order Order 3.
+Shipment 22 has route Route 7.
+Shipment 22 has shipmentStatus value Delayed.
+Shipment 22 has shippedDate value 2023-06-11^^date.
+Shipment 22 has toWarehouse Warehouse 2.
+Shipment 22 is a Shipment.
+Shipment 23 has actualDeliveryDate value 2023-06-17^^date.
+Shipment 23 has expectedDeliveryDate value 2023-06-15^^date.
+Shipment 23 has fromWarehouse Warehouse 4.
+Shipment 23 has order Order 26.
+Shipment 23 has route Route 4.
+Shipment 23 has shipmentStatus value Delayed.
+Shipment 23 has shippedDate value 2023-06-10^^date.
+Shipment 23 has toWarehouse Warehouse 5.
+Shipment 23 is a Shipment.
+Shipment 24 has actualDeliveryDate value 2023-06-17^^date.
+Shipment 24 has expectedDeliveryDate value 2023-06-15^^date.
+Shipment 24 has fromWarehouse Warehouse 2.
+Shipment 24 has order Order 42.
+Shipment 24 has route Route 5.
+Shipment 24 has shipmentStatus value Delayed.
+Shipment 24 has shippedDate value 2023-06-12^^date.
+Shipment 24 has toWarehouse Warehouse 4.
+Shipment 24 is a Shipment.
+Shipment 25 has actualDeliveryDate value 2023-07-01^^date.
+Shipment 25 has expectedDeliveryDate value 2023-06-28^^date.
+Shipment 25 has fromWarehouse Warehouse 4.
+Shipment 25 has order Order 24.
+Shipment 25 has route Route 1.
+Shipment 25 has shipmentStatus value Late.
+Shipment 25 has shippedDate value 2023-06-22^^date.
+Shipment 25 has toWarehouse Warehouse 3.
+Shipment 25 is a Shipment.
+Shipment 26 has actualDeliveryDate value 2023-07-06^^date.
+Shipment 26 has expectedDeliveryDate value 2023-07-06^^date.
+Shipment 26 has fromWarehouse Warehouse 4.
+Shipment 26 has order Order 35.
+Shipment 26 has route Route 1.
+Shipment 26 has shipmentStatus value On Time.
+Shipment 26 has shippedDate value 2023-06-30^^date.
+Shipment 26 has toWarehouse Warehouse 3.
+Shipment 26 is a Shipment.
+Shipment 27 has actualDeliveryDate value 2023-07-25^^date.
+Shipment 27 has expectedDeliveryDate value 2023-07-25^^date.
+Shipment 27 has fromWarehouse Warehouse 3.
+Shipment 27 has order Order 38.
+Shipment 27 has route Route 6.
+Shipment 27 has shipmentStatus value On Time.
+Shipment 27 has shippedDate value 2023-07-11^^date.
+Shipment 27 has toWarehouse Warehouse 1.
+Shipment 27 is a Shipment.
+Shipment 28 has actualDeliveryDate value 2023-07-19^^date.
+Shipment 28 has expectedDeliveryDate value 2023-07-16^^date.
+Shipment 28 has fromWarehouse Warehouse 3.
+Shipment 28 has order Order 40.
+Shipment 28 has route Route 7.
+Shipment 28 has shipmentStatus value Late.
+Shipment 28 has shippedDate value 2023-07-10^^date.
+Shipment 28 has toWarehouse Warehouse 2.
+Shipment 28 is a Shipment.
+Shipment 29 has actualDeliveryDate value 2023-07-22^^date.
+Shipment 29 has expectedDeliveryDate value 2023-07-19^^date.
+Shipment 29 has fromWarehouse Warehouse 4.
+Shipment 29 has order Order 21.
+Shipment 29 has route Route 4.
+Shipment 29 has shipmentStatus value Late.
+Shipment 29 has shippedDate value 2023-07-14^^date.
+Shipment 29 has toWarehouse Warehouse 5.
+Shipment 29 is a Shipment.
+Shipment 3 has actualDeliveryDate value 2023-01-24^^date.
+Shipment 3 has expectedDeliveryDate value 2023-01-24^^date.
+Shipment 3 has fromWarehouse Warehouse 2.
+Shipment 3 has order Order 23.
+Shipment 3 has route Route 5.
+Shipment 3 has shipmentStatus value On Time.
+Shipment 3 has shippedDate value 2023-01-21^^date.
+Shipment 3 has toWarehouse Warehouse 4.
+Shipment 3 is a Shipment.
+Shipment 30 has actualDeliveryDate value 2023-08-14^^date.
+Shipment 30 has expectedDeliveryDate value 2023-08-12^^date.
+Shipment 30 has fromWarehouse Warehouse 2.
+Shipment 30 has order Order 25.
+Shipment 30 has route Route 2.
+Shipment 30 has shipmentStatus value Delayed.
+Shipment 30 has shippedDate value 2023-08-08^^date.
+Shipment 30 has toWarehouse Warehouse 4.
+Shipment 30 is a Shipment.
+Shipment 31 has actualDeliveryDate value 2023-08-16^^date.
+Shipment 31 has expectedDeliveryDate value 2023-08-15^^date.
+Shipment 31 has fromWarehouse Warehouse 1.
+Shipment 31 has order Order 48.
+Shipment 31 has route Route 3.
+Shipment 31 has shipmentStatus value Delayed.
+Shipment 31 has shippedDate value 2023-08-13^^date.
+Shipment 31 has toWarehouse Warehouse 5.
+Shipment 31 is a Shipment.
+Shipment 32 has actualDeliveryDate value 2023-08-20^^date.
+Shipment 32 has expectedDeliveryDate value 2023-08-20^^date.
+Shipment 32 has fromWarehouse Warehouse 4.
+Shipment 32 has order Order 11.
+Shipment 32 has route Route 4.
+Shipment 32 has shipmentStatus value On Time.
+Shipment 32 has shippedDate value 2023-08-15^^date.
+Shipment 32 has toWarehouse Warehouse 5.
+Shipment 32 is a Shipment.
+Shipment 33 has actualDeliveryDate value 2023-09-01^^date.
+Shipment 33 has expectedDeliveryDate value 2023-08-31^^date.
+Shipment 33 has fromWarehouse Warehouse 5.
+Shipment 33 has order Order 5.
+Shipment 33 has route Route 8.
+Shipment 33 has shipmentStatus value Delayed.
+Shipment 33 has shippedDate value 2023-08-18^^date.
+Shipment 33 has toWarehouse Warehouse 2.
+Shipment 33 is a Shipment.
+Shipment 34 has actualDeliveryDate value 2023-08-27^^date.
+Shipment 34 has expectedDeliveryDate value 2023-08-26^^date.
+Shipment 34 has fromWarehouse Warehouse 2.
+Shipment 34 has order Order 30.
+Shipment 34 has route Route 2.
+Shipment 34 has shipmentStatus value Delayed.
+Shipment 34 has shippedDate value 2023-08-22^^date.
+Shipment 34 has toWarehouse Warehouse 4.
+Shipment 34 is a Shipment.
+Shipment 35 has actualDeliveryDate value 2023-09-14^^date.
+Shipment 35 has expectedDeliveryDate value 2023-09-11^^date.
+Shipment 35 has fromWarehouse Warehouse 5.
+Shipment 35 has order Order 2.
+Shipment 35 has route Route 8.
+Shipment 35 has shipmentStatus value Late.
+Shipment 35 has shippedDate value 2023-08-29^^date.
+Shipment 35 has toWarehouse Warehouse 2.
+Shipment 35 is a Shipment.
+Shipment 36 has actualDeliveryDate value 2023-09-23^^date.
+Shipment 36 has expectedDeliveryDate value 2023-09-20^^date.
+Shipment 36 has fromWarehouse Warehouse 3.
+Shipment 36 has order Order 41.
+Shipment 36 has route Route 7.
+Shipment 36 has shipmentStatus value Late.
+Shipment 36 has shippedDate value 2023-09-14^^date.
+Shipment 36 has toWarehouse Warehouse 2.
+Shipment 36 is a Shipment.
+Shipment 37 has actualDeliveryDate value 2023-09-18^^date.
+Shipment 37 has expectedDeliveryDate value 2023-09-16^^date.
+Shipment 37 has fromWarehouse Warehouse 2.
+Shipment 37 has order Order 43.
+Shipment 37 has route Route 5.
+Shipment 37 has shipmentStatus value Delayed.
+Shipment 37 has shippedDate value 2023-09-13^^date.
+Shipment 37 has toWarehouse Warehouse 4.
+Shipment 37 is a Shipment.
+Shipment 38 has actualDeliveryDate value 2023-09-28^^date.
+Shipment 38 has expectedDeliveryDate value 2023-09-28^^date.
+Shipment 38 has fromWarehouse Warehouse 3.
+Shipment 38 has order Order 8.
+Shipment 38 has route Route 7.
+Shipment 38 has shipmentStatus value On Time.
+Shipment 38 has shippedDate value 2023-09-22^^date.
+Shipment 38 has toWarehouse Warehouse 2.
+Shipment 38 is a Shipment.
+Shipment 39 has actualDeliveryDate value 2023-10-09^^date.
+Shipment 39 has expectedDeliveryDate value 2023-10-09^^date.
+Shipment 39 has fromWarehouse Warehouse 1.
+Shipment 39 has order Order 12.
+Shipment 39 has route Route 3.
+Shipment 39 has shipmentStatus value On Time.
+Shipment 39 has shippedDate value 2023-10-07^^date.
+Shipment 39 has toWarehouse Warehouse 5.
+Shipment 39 is a Shipment.
+Shipment 4 has actualDeliveryDate value 2023-01-26^^date.
+Shipment 4 has expectedDeliveryDate value 2023-01-23^^date.
+Shipment 4 has fromWarehouse Warehouse 1.
+Shipment 4 has order Order 46.
+Shipment 4 has route Route 3.
+Shipment 4 has shipmentStatus value Late.
+Shipment 4 has shippedDate value 2023-01-21^^date.
+Shipment 4 has toWarehouse Warehouse 5.
+Shipment 4 is a Shipment.
+Shipment 40 has actualDeliveryDate value 2023-10-15^^date.
+Shipment 40 has expectedDeliveryDate value 2023-10-14^^date.
+Shipment 40 has fromWarehouse Warehouse 4.
+Shipment 40 has order Order 32.
+Shipment 40 has route Route 1.
+Shipment 40 has shipmentStatus value Delayed.
+Shipment 40 has shippedDate value 2023-10-08^^date.
+Shipment 40 has toWarehouse Warehouse 3.
+Shipment 40 is a Shipment.
+Shipment 41 has actualDeliveryDate value 2023-10-22^^date.
+Shipment 41 has expectedDeliveryDate value 2023-10-22^^date.
+Shipment 41 has fromWarehouse Warehouse 3.
+Shipment 41 has order Order 47.
+Shipment 41 has route Route 6.
+Shipment 41 has shipmentStatus value On Time.
+Shipment 41 has shippedDate value 2023-10-08^^date.
+Shipment 41 has toWarehouse Warehouse 1.
+Shipment 41 is a Shipment.
+Shipment 42 has actualDeliveryDate value 2023-10-28^^date.
+Shipment 42 has expectedDeliveryDate value 2023-10-28^^date.
+Shipment 42 has fromWarehouse Warehouse 3.
+Shipment 42 has order Order 9.
+Shipment 42 has route Route 6.
+Shipment 42 has shipmentStatus value On Time.
+Shipment 42 has shippedDate value 2023-10-14^^date.
+Shipment 42 has toWarehouse Warehouse 1.
+Shipment 42 is a Shipment.
+Shipment 43 has actualDeliveryDate value 2023-10-20^^date.
+Shipment 43 has expectedDeliveryDate value 2023-10-19^^date.
+Shipment 43 has fromWarehouse Warehouse 3.
+Shipment 43 has order Order 15.
+Shipment 43 has route Route 7.
+Shipment 43 has shipmentStatus value Delayed.
+Shipment 43 has shippedDate value 2023-10-13^^date.
+Shipment 43 has toWarehouse Warehouse 2.
+Shipment 43 is a Shipment.
+Shipment 44 has actualDeliveryDate value 2023-10-27^^date.
+Shipment 44 has expectedDeliveryDate value 2023-10-27^^date.
+Shipment 44 has fromWarehouse Warehouse 5.
+Shipment 44 has order Order 13.
+Shipment 44 has route Route 8.
+Shipment 44 has shipmentStatus value On Time.
+Shipment 44 has shippedDate value 2023-10-14^^date.
+Shipment 44 has toWarehouse Warehouse 2.
+Shipment 44 is a Shipment.
+Shipment 45 has actualDeliveryDate value 2023-11-07^^date.
+Shipment 45 has expectedDeliveryDate value 2023-11-05^^date.
+Shipment 45 has fromWarehouse Warehouse 2.
+Shipment 45 has order Order 34.
+Shipment 45 has route Route 2.
+Shipment 45 has shipmentStatus value Delayed.
+Shipment 45 has shippedDate value 2023-11-01^^date.
+Shipment 45 has toWarehouse Warehouse 4.
+Shipment 45 is a Shipment.
+Shipment 46 has actualDeliveryDate value 2023-11-15^^date.
+Shipment 46 has expectedDeliveryDate value 2023-11-15^^date.
+Shipment 46 has fromWarehouse Warehouse 5.
+Shipment 46 has order Order 17.
+Shipment 46 has route Route 8.
+Shipment 46 has shipmentStatus value On Time.
+Shipment 46 has shippedDate value 2023-11-02^^date.
+Shipment 46 has toWarehouse Warehouse 2.
+Shipment 46 is a Shipment.
+Shipment 47 has actualDeliveryDate value 2023-11-26^^date.
+Shipment 47 has expectedDeliveryDate value 2023-11-26^^date.
+Shipment 47 has fromWarehouse Warehouse 5.
+Shipment 47 has order Order 16.
+Shipment 47 has route Route 8.
+Shipment 47 has shipmentStatus value On Time.
+Shipment 47 has shippedDate value 2023-11-13^^date.
+Shipment 47 has toWarehouse Warehouse 2.
+Shipment 47 is a Shipment.
+Shipment 48 has actualDeliveryDate value 2023-11-25^^date.
+Shipment 48 has expectedDeliveryDate value 2023-11-25^^date.
+Shipment 48 has fromWarehouse Warehouse 4.
+Shipment 48 has order Order 44.
+Shipment 48 has route Route 1.
+Shipment 48 has shipmentStatus value On Time.
+Shipment 48 has shippedDate value 2023-11-19^^date.
+Shipment 48 has toWarehouse Warehouse 3.
+Shipment 48 is a Shipment.
+Shipment 49 has actualDeliveryDate value 2023-12-20^^date.
+Shipment 49 has expectedDeliveryDate value 2023-12-20^^date.
+Shipment 49 has fromWarehouse Warehouse 4.
+Shipment 49 has order Order 33.
+Shipment 49 has route Route 4.
+Shipment 49 has shipmentStatus value On Time.
+Shipment 49 has shippedDate value 2023-12-15^^date.
+Shipment 49 has toWarehouse Warehouse 5.
+Shipment 49 is a Shipment.
+Shipment 5 has actualDeliveryDate value 2023-01-31^^date.
+Shipment 5 has expectedDeliveryDate value 2023-01-30^^date.
+Shipment 5 has fromWarehouse Warehouse 2.
+Shipment 5 has order Order 1.
+Shipment 5 has route Route 2.
+Shipment 5 has shipmentStatus value Delayed.
+Shipment 5 has shippedDate value 2023-01-26^^date.
+Shipment 5 has toWarehouse Warehouse 4.
+Shipment 5 is a Shipment.
+Shipment 50 has actualDeliveryDate value 2024-01-20^^date.
+Shipment 50 has expectedDeliveryDate value 2024-01-18^^date.
+Shipment 50 has fromWarehouse Warehouse 3.
+Shipment 50 has order Order 6.
+Shipment 50 has route Route 6.
+Shipment 50 has shipmentStatus value Delayed.
+Shipment 50 has shippedDate value 2024-01-04^^date.
+Shipment 50 has toWarehouse Warehouse 1.
+Shipment 50 is a Shipment.
+Shipment 6 has actualDeliveryDate value 2023-02-05^^date.
+Shipment 6 has expectedDeliveryDate value 2023-02-02^^date.
+Shipment 6 has fromWarehouse Warehouse 4.
+Shipment 6 has order Order 10.
+Shipment 6 has route Route 1.
+Shipment 6 has shipmentStatus value Late.
+Shipment 6 has shippedDate value 2023-01-27^^date.
+Shipment 6 has toWarehouse Warehouse 3.
+Shipment 6 is a Shipment.
+Shipment 7 has actualDeliveryDate value 2023-02-10^^date.
+Shipment 7 has expectedDeliveryDate value 2023-02-10^^date.
+Shipment 7 has fromWarehouse Warehouse 4.
+Shipment 7 has order Order 20.
+Shipment 7 has route Route 4.
+Shipment 7 has shipmentStatus value On Time.
+Shipment 7 has shippedDate value 2023-02-05^^date.
+Shipment 7 has toWarehouse Warehouse 5.
+Shipment 7 is a Shipment.
+Shipment 8 has actualDeliveryDate value 2023-02-13^^date.
+Shipment 8 has expectedDeliveryDate value 2023-02-12^^date.
+Shipment 8 has fromWarehouse Warehouse 4.
+Shipment 8 has order Order 31.
+Shipment 8 has route Route 1.
+Shipment 8 has shipmentStatus value Delayed.
+Shipment 8 has shippedDate value 2023-02-06^^date.
+Shipment 8 has toWarehouse Warehouse 3.
+Shipment 8 is a Shipment.
+Shipment 9 has actualDeliveryDate value 2023-02-12^^date.
+Shipment 9 has expectedDeliveryDate value 2023-02-11^^date.
+Shipment 9 has fromWarehouse Warehouse 1.
+Shipment 9 has order Order 4.
+Shipment 9 has route Route 3.
+Shipment 9 has shipmentStatus value Delayed.
+Shipment 9 has shippedDate value 2023-02-09^^date.
+Shipment 9 has toWarehouse Warehouse 5.
+Shipment 9 is a Shipment.
+Supplier 1 has country value BD.
+Supplier 1 has leadTime value 28^^integer.
+Supplier 1 is named Rodriguez, Figueroa and Sanchez.
+Supplier 1 has reliability score 7.67^^float.
+Supplier 1 is a Supplier.
+Supplier 10 has country value YE.
+Supplier 10 has leadTime value 27^^integer.
+Supplier 10 is named Abbott-Munoz.
+Supplier 10 has reliability score 4.28^^float.
+Supplier 10 is a Supplier.
+Supplier 2 has country value ZA.
+Supplier 2 has leadTime value 16^^integer.
+Supplier 2 is named Doyle Ltd.
+Supplier 2 has reliability score 4.84^^float.
+Supplier 2 is a Supplier.
+Supplier 3 has country value PK.
+Supplier 3 has leadTime value 30^^integer.
+Supplier 3 is named Mcclain, Miller and Henderson.
+Supplier 3 has reliability score 5.75^^float.
+Supplier 3 is a Supplier.
+Supplier 4 has country value SO.
+Supplier 4 has leadTime value 18^^integer.
+Supplier 4 is named Davis and Sons.
+Supplier 4 has reliability score 6.2^^float.
+Supplier 4 is a Supplier.
+Supplier 5 has country value CM.
+Supplier 5 has leadTime value 16^^integer.
+Supplier 5 is named Guzman, Hoffman and Baldwin.
+Supplier 5 has reliability score 6.74^^float.
+Supplier 5 is a Supplier.
+Supplier 6 has country value MT.
+Supplier 6 has leadTime value 27^^integer.
+Supplier 6 is named Gardner, Robinson and Lawrence.
+Supplier 6 has reliability score 8.71^^float.
+Supplier 6 is a Supplier.
+Supplier 7 has country value BR.
+Supplier 7 has leadTime value 13^^integer.
+Supplier 7 is named Blake and Sons.
+Supplier 7 has reliability score 5.2^^float.
+Supplier 7 is a Supplier.
+Supplier 8 has country value TG.
+Supplier 8 has leadTime value 34^^integer.
+Supplier 8 is named Henderson, Ramirez and Lewis.
+Supplier 8 has reliability score 7.09^^float.
+Supplier 8 is a Supplier.
+Supplier 9 has country value KE.
+Supplier 9 has leadTime value 23^^integer.
+Supplier 9 is named Garcia-James.
+Supplier 9 has reliability score 7.55^^float.
+Supplier 9 is a Supplier.
+Warehouse 1 has capacity value 986^^integer.
+Warehouse 1 has currentLoad value 645^^integer.
+Warehouse 1 has location value New Carlosbury.
+Warehouse 1 is a Warehouse.
+Warehouse 2 has capacity value 2149^^integer.
+Warehouse 2 has currentLoad value 1813^^integer.
+Warehouse 2 has location value Wilsonshire.
+Warehouse 2 is a Warehouse.
+Warehouse 3 has capacity value 1263^^integer.
+Warehouse 3 has currentLoad value 907^^integer.
+Warehouse 3 has location value New Brooke.
+Warehouse 3 is a Warehouse.
+Warehouse 4 has capacity value 2172^^integer.
+Warehouse 4 has currentLoad value 1014^^integer.
+Warehouse 4 has location value South Dianeshire.
+Warehouse 4 is a Warehouse.
+Warehouse 5 has capacity value 1459^^integer.
+Warehouse 5 has currentLoad value 730^^integer.
+Warehouse 5 has location value Sarahborough.
+Warehouse 5 is a Warehouse.

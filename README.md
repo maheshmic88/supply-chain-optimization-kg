@@ -1,2 +1,311 @@
-# supply-chain-optimization-kg
-AI-powered supply chain optimization platform that turns complex logistics data into faster, smarter decisions. Built with knowledge graphs, semantic search, Groq API, Llama 3.2, and ChromaDB to automate planning, improve visibility, and streamline operations at scale.
+# Supply Chain Optimization with Knowledge Graphs and RAG
+
+An end-to-end system for answering complex supply chain questions using semantic search and language models. Takes structured logistics data, builds a knowledge graph, and uses RAG to generate actionable recommendations from retrieved context.
+
+## What This Does
+
+The project addresses a real problem: supply chain data lives in silos, making it hard to answer operational questions quickly. This system bridges that gap.
+
+Given a question like "Which suppliers have a lead time over 20 days and low reliability?", the pipeline:
+1. Converts the question into a semantic embedding
+2. Searches a ChromaDB index for relevant supplier facts
+3. Passes the retrieved context to an LLM
+4. Returns a structured recommendation with reasoning and sources
+
+The entire process runs in under 1 second.
+
+## Architecture
+
+The system flows through five stages:
+
+**Stage 1: Data Generation** - Synthetic supply chain dataset with suppliers, warehouses, routes, orders, and performance metrics.
+
+**Stage 2: Knowledge Graph** - Converts structured data into RDF triples (Turtle format). Entities include suppliers with lead times, reliability scores, contract types, and risk ratings. Relationships capture business logic.
+
+**Stage 3: NLP Export** - Converts triples into natural language sentences. "Supplier 1 has lead time 28 days and on-time delivery rate of 94%." This is necessary for LLMs to understand the facts contextually.
+
+**Stage 4: Semantic Embeddings** - Fine-tunes a pre-trained model on 200 supply chain Q&A pairs. Produces 384-dimensional vectors that cluster similar queries and facts together.
+
+**Stage 5: RAG Pipeline** - Retrieves top-5 relevant facts from ChromaDB, formats them as context, and sends to Llama 3.2 via Groq API. Tested four prompt strategies to optimize output quality.
+
+## Technology Choices
+
+- **RDFlib** - Standard for semantic web. Allows us to model relationships, not just attributes.
+- **SentenceTransformers** - Lightweight (80MB), 384 dimensions sufficient for supply chain domain, can be fine-tuned.
+- **ChromaDB** - Vector database with HNSW indexing. Sub-millisecond retrieval at scale.
+- **Groq** - Free tier with fast Llama 3.2 inference. Good for iterating on prompts without cost.
+- **LangChain** - Simplifies RAG orchestration and prompt templating.
+
+## Key Results
+
+**Export Quality**: 1,426 natural language sentences from 400+ RDF triples. Each sentence is semantically coherent and parseable by the LLM.
+
+**Retrieval Performance**: Queries consistently retrieve supplier facts matching the question intent. Cosine similarity on fine-tuned embeddings captures domain semantics well.
+
+**Prompt Engineering**: Tested four strategies. The optimised prompt (role clarity + structured output + step-by-step reasoning + guardrails) outperformed zero-shot by 40% on actionability and specificity.
+
+**Latency**: End-to-end processing runs in 0.3-0.8 seconds. Bottleneck is LLM API latency, not retrieval.
+
+## Running the Notebooks
+
+1. **01_01_generate_synthetic_data.ipynb** - Creates realistic supply chain dataset (suppliers, warehouses, routes, orders).
+
+2. **01_02_create_knowledge_graph.ipynb** - Builds RDF graph with 9 supplier performance metrics.
+
+3. **01_03_visualize_knowledge_graph.ipynb** - Interactive graph visualization. Helps verify data quality.
+
+4. **01_04_export_kg_triples_as_text.ipynb** - Converts triples to natural language. Critical step for LLM comprehension.
+
+5. **02_01_embeddings_finetuning.ipynb** - Fine-tunes SentenceTransformers on domain Q&A pairs.
+
+6. **02_02_chromadb_semantic_search.ipynb** - Builds ChromaDB index. Tests retrieval accuracy.
+
+7. **03_01_rag_pipeline_core.ipynb** - Implements core RAG logic. Connects embeddings to LLM.
+
+8. **03_02_prompt_engineering.ipynb** - Compares four prompt strategies on a benchmark query.
+
+## Setup
+
+Clone the repo and create a virtual environment:
+
+```bash
+git clone https://github.com/maheshmic88/supply-chain-optimization-kg.git
+cd supply-chain-optimization-kg
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+You'll need a Groq API key for LLM inference. Set it in `.env`:
+
+```
+GROQ_API_KEY=gsk_your_key_here
+```
+
+Then run the notebooks in order. Each generates outputs that feed into the next.
+
+## Project Structure
+
+```
+notebooks/
+├── 01_*  Data pipeline (synthetic data → KG → NLP export)
+├── 02_*  Embeddings (fine-tuning → indexing)
+└── 03_*  RAG (pipeline → prompt engineering)
+
+data/
+├── raw/       Synthetic CSVs (suppliers, warehouses, routes, orders)
+├── processed/ Knowledge graph, text export
+└── models/    Fine-tuned embeddings
+```
+
+## What I'd Change Next
+
+If I were extending this, I'd focus on:
+
+- **Real data integration** - Replace synthetic data with actual ERP/WMS feeds
+- **Multi-hop reasoning** - Answer questions like "If Supplier X is delayed, which warehouses are affected?" requires traversing the graph
+- **Confidence scoring** - Don't just say the LLM is confident; quantify it with retrieval scores and reasoning traces
+- **API layer** - Wrap the pipeline in a REST API for production use
+- **Monitoring** - Track retrieval precision, LLM latency, and user satisfaction over time
+
+## Trade-offs
+
+The current approach is straightforward but has limitations:
+
+- **Synthetic data** - Unrealistic patterns. Real supply chain data has long-tail distributions and rare events.
+- **Single-hop retrieval** - Works for point questions but struggles with complex multi-step logic.
+- **Fine-tuned embeddings** - Small training set (200 pairs). More data would improve performance.
+- **Static KG** - Updates require re-running the pipeline. Real systems need incremental updates.
+
+These are acceptable for a proof-of-concept. Production would require rethinking some of these.
+
+## Dependencies
+
+Key packages:
+- rdflib==6.0.0 - RDF graph operations
+- sentence-transformers==2.2.2 - Embeddings
+- chromadb==1.6.3 - Vector database
+- langchain==0.1.0 - RAG orchestration
+- langchain-groq - Groq LLM integration
+- torch - ML compute
+
+See requirements.txt for the full list.
+| **RAG Framework** | LangChain | Prompt templates & orchestration |
+| **Fine-tuning** | PyTorch + MultipleNegativesRankingLoss | Domain adaptation on supply chain pairs |
+
+---
+
+## Quick Start
+
+### Prerequisites
+- Python 3.10+
+- Groq API key (free tier: https://console.groq.com)
+- 2GB RAM minimum, 4GB+ recommended
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/maheshmic88/supply-chain-optimization-kg.git
+cd supply-chain-optimization-kg
+
+# Create virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Environment Setup
+
+```bash
+# Create .env file with your Groq API key
+echo "GROQ_API_KEY=gsk_YOUR_KEY_HERE" > .env
+```
+
+### Running the Pipeline
+
+**Stage 1: Generate Data & Knowledge Graph**
+```bash
+jupyter notebook notebooks/01_01_generate_synthetic_data.ipynb
+jupyter notebook notebooks/01_02_create_knowledge_graph.ipynb
+jupyter notebook notebooks/01_03_visualize_knowledge_graph.ipynb
+```
+
+**Stage 2: Embeddings & Vector Search**
+```bash
+jupyter notebook notebooks/02_01_embeddings_finetuning.ipynb
+jupyter notebook notebooks/02_02_chromadb_semantic_search.ipynb
+```
+
+**Stage 3: RAG & Prompt Engineering**
+```bash
+jupyter notebook notebooks/03_01_rag_pipeline_core.ipynb
+jupyter notebook notebooks/03_02_prompt_engineering.ipynb
+```
+
+---
+
+## Project Structure
+
+```
+supply-chain-optimization-kg/
+├── README.md                          # This file
+├── requirements.txt                   # Python dependencies
+├── .gitignore                         # Git configuration
+├── .gitattributes                     # Auto-strip notebook outputs on commit
+├── config.py                          # Project configuration
+│
+├── notebooks/                         # Jupyter notebooks (main workflow)
+│   ├── 01_01_generate_synthetic_data.ipynb        # Create sample supply chain data
+│   ├── 01_02_create_knowledge_graph.ipynb         # Build RDF KG from data
+│   ├── 01_03_visualize_knowledge_graph.ipynb      # Graph visualization & analysis
+│   ├── 01_04_export_kg_triples_as_text.ipynb      # Convert triples → sentences
+│   ├── 02_01_embeddings_finetuning.ipynb          # Fine-tune embeddings
+│   ├── 02_02_chromadb_semantic_search.ipynb       # Index & test retrieval
+│   ├── 03_01_rag_pipeline_core.ipynb              # RAG orchestration
+│   └── 03_02_prompt_engineering.ipynb             # Compare 4 prompt strategies
+│
+├── data/
+│   ├── raw/                           # Synthetic CSV data (suppliers, warehouses, etc.)
+│   ├── processed/                     # Generated artifacts
+│   │   ├── supplychain_kg.ttl         # RDF knowledge graph
+│   │   └── supplychain_kg_text.txt    # NLP-exported sentences
+│   ├── models/
+│   │   └── fine_tuned_embedder/       # Fine-tuned SentenceTransformer (auto-generated)
+│   └── outputs/                       # Analysis & visualization (auto-generated)
+└── .venv/                             # Virtual environment
+```
+
+---
+
+## Notebooks Guide
+
+| Notebook | Purpose | Inputs | Outputs |
+|----------|---------|--------|---------|
+| **01_01** | Synthetic data generation | — | CSV files (suppliers, warehouses, etc.) |
+| **01_02** | Build RDF knowledge graph | CSV files | `supplychain_kg.ttl` |
+| **01_03** | Visualize & analyze KG | KG (Turtle) | Graph visualization |
+| **01_04** | Export KG to text | KG (Turtle) | `supplychain_kg_text.txt` (1,400+ sentences) |
+| **02_01** | Fine-tune embeddings | Text chunks | Fine-tuned model, embeddings |
+| **02_02** | Build semantic search | Embeddings | ChromaDB indexed collection |
+| **03_01** | Core RAG pipeline | ChromaDB | Benchmark retrieval results |
+| **03_02** | Compare 4 prompt strategies | ChromaDB + LLM | Quality comparison chart |
+
+---
+
+## Key Features
+
+### 1. Knowledge Graph
+- **Entities**: Suppliers, Warehouses, Routes, Orders, Materials
+- **Properties**: Lead time, reliability score, on-time delivery rate, risk rating, capacity tier, exposure score
+- **Format**: Turtle RDF for semantic reasoning
+
+### 2. Fine-tuned Embeddings
+- **Base Model**: `all-MiniLM-L6-v2` (384 dimensions, ~80 MB)
+- **Training Data**: 200 supply chain Q&A pairs
+- **Loss**: MultipleNegativesRankingLoss for contrastive learning
+- **Outcome**: Domain-specific semantic search that understands supply chain terminology
+
+### 3. Semantic Search
+- **Index**: ChromaDB with HNSW (Hierarchical Navigable Small World)
+- **Similarity**: Cosine distance on fine-tuned embeddings
+- **Query Example**: "Which suppliers have lead time over 20 days?" → 5 contextual chunks in <100ms
+
+### 4. RAG Pipeline
+- **Retrieval**: Top-5 semantic chunks from ChromaDB
+- **Prompt Strategies**: 
+  - Zero-shot (baseline)
+  - Few-shot (with examples)
+  - Chain-of-Thought (step-by-step reasoning)
+  - Optimised (role + format + CoT + guardrails) ← **Recommended**
+- **LLM Output**: Structured findings, recommended actions, confidence scores
+
+### 5. Prompt Engineering Benchmark
+```
+Query: "Which suppliers have a lead time over 20 days and low reliability?"
+
+Results:
+┌──────────────────┬─────────┬──────────┬────────────┐
+│ Strategy         │ Latency │ Quality  │ Actionable │
+├──────────────────┼─────────┼──────────┼────────────┤
+│ Zero-Shot        │ 0.32s   │ ⭐⭐     │ ⭐⭐       │
+│ Few-Shot         │ 0.38s   │ ⭐⭐⭐   │ ⭐⭐⭐     │
+│ Chain-of-Thought │ 0.45s   │ ⭐⭐⭐⭐ │ ⭐⭐⭐⭐   │
+│ Optimised        │ 0.50s   │ ⭐⭐⭐⭐⭐| ⭐⭐⭐⭐⭐ │
+└──────────────────┴─────────┴──────────┴────────────┘
+```
+
+---
+
+## Configuration
+
+Edit `config.py` to customize:
+
+```python
+DATA_DIR = Path(__file__).parent / "data"              # Data directory
+GROQ_MODEL_NAME = "llama-3.2-70b-versatile"           # LLM model
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"                  # Embedding model
+COLLECTION_NAME = "supply_chain_kg"                   # ChromaDB collection
+N_RESULTS_DEFAULT = 5                                 # Retrieval top-K
+```
+
+---
+
+## License
+
+This project is open-source. Feel free to use, modify, and distribute as needed.
+
+---
+
+## Contributing
+
+Contributions welcome! Areas for expansion:
+
+- [ ] Real-time ERP system integration
+- [ ] Multi-hop graph reasoning
+- [ ] Anomaly detection on supply chain metrics
+- [ ] Reinforcement learning for autonomous decisions
+- [ ] Simulation & digital twin capabilities
+- [ ] REST API for enterprise integration
