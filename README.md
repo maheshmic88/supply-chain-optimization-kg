@@ -82,7 +82,7 @@ These are acceptable for a proof-of-concept. Production would require rethinking
 Key packages:
 - rdflib==6.0.0 - RDF graph operations
 - sentence-transformers==2.2.2 - Embeddings
-- chromadb==1.6.3 - Vector database
+- chromadb==1.5.9 - Vector database
 - langchain==0.1.0 - RAG orchestration
 - langchain-groq - Groq LLM integration
 - torch - ML compute
@@ -168,29 +168,33 @@ N_RESULTS_DEFAULT = 5                                 # Retrieval top-K
 supply-chain-optimization-kg/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
+├── config.py                          # Project configuration
+├── .env.example                       # API key template (copy to .env)
 ├── .gitignore                         # Git configuration
 ├── .gitattributes                     # Auto-strip notebook outputs on commit
-├── config.py                          # Project configuration
 │
 ├── notebooks/                         # Jupyter notebooks (main workflow)
 │   ├── 01_01_generate_synthetic_data.ipynb        # Create sample supply chain data
-│   ├── 01_02_create_knowledge_graph.ipynb         # Build RDF KG from data
-│   ├── 01_03_visualize_knowledge_graph.ipynb      # Graph visualization & analysis
-│   ├── 01_04_export_kg_triples_as_text.ipynb      # Convert triples → sentences
-│   ├── 02_01_embeddings_finetuning.ipynb          # Fine-tune embeddings
-│   ├── 02_02_chromadb_semantic_search.ipynb       # Index & test retrieval
-│   ├── 03_01_rag_pipeline_core.ipynb              # RAG orchestration
-│   └── 03_02_prompt_engineering.ipynb             # Compare 4 prompt strategies
+│   ├── 01_02_create_knowledge_graph.ipynb         # Build RDF KG from structured data
+│   ├── 01_03_visualize_knowledge_graph.ipynb      # Interactive graph visualization
+│   ├── 01_04_export_kg_triples_as_text.ipynb      # Convert RDF triples → NL sentences
+│   ├── 02_01_embeddings_finetuning.ipynb          # Fine-tune domain embeddings
+│   ├── 02_02_chromadb_semantic_search.ipynb       # Index embeddings & test retrieval
+│   ├── 03_01_rag_pipeline_core.ipynb              # Core RAG orchestration
+│   ├── 03_02_prompt_engineering.ipynb             # Compare 4 prompt strategies
+│   ├── 03_03_rag_business_queries.ipynb           # 5 real-world supply chain queries
+│   └── 04_01_llmops_responsible_ai.ipynb          # MLflow tracking + AI guardrails
 │
 ├── data/
-│   ├── raw/                           # Synthetic CSV data (suppliers, warehouses, etc.)
+│   ├── raw/                           # Synthetic CSVs (suppliers, warehouses, orders, etc.)
 │   ├── processed/                     # Generated artifacts
-│   │   ├── supplychain_kg.ttl         # RDF knowledge graph
-│   │   └── supplychain_kg_text.txt    # NLP-exported sentences
+│   │   ├── supplychain_kg.ttl         # RDF knowledge graph (Turtle format)
+│   │   └── supplychain_kg_text.txt    # NL-exported sentences (1,426 lines)
 │   ├── models/
 │   │   └── fine_tuned_embedder/       # Fine-tuned SentenceTransformer (auto-generated)
-│   └── outputs/                       # Analysis & visualization (auto-generated)
-└── .venv/                             # Virtual environment
+│   └── outputs/                       # Embeddings, RAG results, visualizations (auto-generated)
+│
+└── tests/                             # Unit tests
 ```
 
 ---
