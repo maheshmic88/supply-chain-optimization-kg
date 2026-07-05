@@ -197,7 +197,6 @@ supply-chain-optimization-kg/
   - Optimised (role + format + CoT + guardrails) ← **Recommended**
 - **LLM Output**: Structured findings, recommended actions, confidence scores
 
-```
 
 ---
 
