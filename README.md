@@ -46,7 +46,7 @@ The system flows through five stages:
 
 **Latency**: End-to-end processing runs in 0.3-0.8 seconds. Bottleneck is LLM API latency, not retrieval.
 
-## Running the Notebooks
+## About the Notebooks
 
 1. **01_01_generate_synthetic_data.ipynb** - Creates realistic supply chain dataset (suppliers, warehouses, routes, orders).
 
@@ -64,49 +64,7 @@ The system flows through five stages:
 
 8. **03_02_prompt_engineering.ipynb** - Compares four prompt strategies on a benchmark query.
 
-## Setup
 
-Clone the repo and create a virtual environment:
-
-```bash
-git clone https://github.com/maheshmic88/supply-chain-optimization-kg.git
-cd supply-chain-optimization-kg
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-You'll need a Groq API key for LLM inference. Set it in `.env`:
-
-```
-GROQ_API_KEY=gsk_your_key_here
-```
-
-Then run the notebooks in order. Each generates outputs that feed into the next.
-
-## Project Structure
-
-```
-notebooks/
-├── 01_*  Data pipeline (synthetic data → KG → NLP export)
-├── 02_*  Embeddings (fine-tuning → indexing)
-└── 03_*  RAG (pipeline → prompt engineering)
-
-data/
-├── raw/       Synthetic CSVs (suppliers, warehouses, routes, orders)
-├── processed/ Knowledge graph, text export
-└── models/    Fine-tuned embeddings
-```
-
-## What I'd Change Next
-
-If I were extending this, I'd focus on:
-
-- **Real data integration** - Replace synthetic data with actual ERP/WMS feeds
-- **Multi-hop reasoning** - Answer questions like "If Supplier X is delayed, which warehouses are affected?" requires traversing the graph
-- **Confidence scoring** - Don't just say the LLM is confident; quantify it with retrieval scores and reasoning traces
-- **API layer** - Wrap the pipeline in a REST API for production use
-- **Monitoring** - Track retrieval precision, LLM latency, and user satisfaction over time
 
 ## Trade-offs
 
@@ -164,25 +122,17 @@ pip install -r requirements.txt
 echo "GROQ_API_KEY=gsk_YOUR_KEY_HERE" > .env
 ```
 
-### Running the Pipeline
 
-**Stage 1: Generate Data & Knowledge Graph**
-```bash
-jupyter notebook notebooks/01_01_generate_synthetic_data.ipynb
-jupyter notebook notebooks/01_02_create_knowledge_graph.ipynb
-jupyter notebook notebooks/01_03_visualize_knowledge_graph.ipynb
-```
+## Configuration
 
-**Stage 2: Embeddings & Vector Search**
-```bash
-jupyter notebook notebooks/02_01_embeddings_finetuning.ipynb
-jupyter notebook notebooks/02_02_chromadb_semantic_search.ipynb
-```
+Edit `config.py` to customize:
 
-**Stage 3: RAG & Prompt Engineering**
-```bash
-jupyter notebook notebooks/03_01_rag_pipeline_core.ipynb
-jupyter notebook notebooks/03_02_prompt_engineering.ipynb
+```python
+DATA_DIR = Path(__file__).parent / "data"              # Data directory
+GROQ_MODEL_NAME = "llama-3.2-70b-versatile"           # LLM model
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"                  # Embedding model
+COLLECTION_NAME = "supply_chain_kg"                   # ChromaDB collection
+N_RESULTS_DEFAULT = 5                                 # Retrieval top-K
 ```
 
 ---
@@ -220,21 +170,6 @@ supply-chain-optimization-kg/
 
 ---
 
-## Notebooks Guide
-
-| Notebook | Purpose | Inputs | Outputs |
-|----------|---------|--------|---------|
-| **01_01** | Synthetic data generation | — | CSV files (suppliers, warehouses, etc.) |
-| **01_02** | Build RDF knowledge graph | CSV files | `supplychain_kg.ttl` |
-| **01_03** | Visualize & analyze KG | KG (Turtle) | Graph visualization |
-| **01_04** | Export KG to text | KG (Turtle) | `supplychain_kg_text.txt` (1,400+ sentences) |
-| **02_01** | Fine-tune embeddings | Text chunks | Fine-tuned model, embeddings |
-| **02_02** | Build semantic search | Embeddings | ChromaDB indexed collection |
-| **03_01** | Core RAG pipeline | ChromaDB | Benchmark retrieval results |
-| **03_02** | Compare 4 prompt strategies | ChromaDB + LLM | Quality comparison chart |
-
----
-
 ## Key Features
 
 ### 1. Knowledge Graph
@@ -262,50 +197,23 @@ supply-chain-optimization-kg/
   - Optimised (role + format + CoT + guardrails) ← **Recommended**
 - **LLM Output**: Structured findings, recommended actions, confidence scores
 
-### 5. Prompt Engineering Benchmark
-```
-Query: "Which suppliers have a lead time over 20 days and low reliability?"
-
-Results:
-┌──────────────────┬─────────┬──────────┬────────────┐
-│ Strategy         │ Latency │ Quality  │ Actionable │
-├──────────────────┼─────────┼──────────┼────────────┤
-│ Zero-Shot        │ 0.32s   │ ⭐⭐     │ ⭐⭐       │
-│ Few-Shot         │ 0.38s   │ ⭐⭐⭐   │ ⭐⭐⭐     │
-│ Chain-of-Thought │ 0.45s   │ ⭐⭐⭐⭐ │ ⭐⭐⭐⭐   │
-│ Optimised        │ 0.50s   │ ⭐⭐⭐⭐⭐| ⭐⭐⭐⭐⭐ │
-└──────────────────┴─────────┴──────────┴────────────┘
 ```
 
 ---
 
-## Configuration
+## What I'd Change Next
 
-Edit `config.py` to customize:
+If I were extending this, I'd focus on:
 
-```python
-DATA_DIR = Path(__file__).parent / "data"              # Data directory
-GROQ_MODEL_NAME = "llama-3.2-70b-versatile"           # LLM model
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"                  # Embedding model
-COLLECTION_NAME = "supply_chain_kg"                   # ChromaDB collection
-N_RESULTS_DEFAULT = 5                                 # Retrieval top-K
-```
+- **Real data integration** - Replace synthetic data with actual ERP/WMS feeds
+- **Multi-hop reasoning** - Answer questions like "If Supplier X is delayed, which warehouses are affected?" requires traversing the graph
+- **Confidence scoring** - Don't just say the LLM is confident; quantify it with retrieval scores and reasoning traces
+- **API layer** - Wrap the pipeline in a REST API for production use
+- **Monitoring** - Track retrieval precision, LLM latency, and user satisfaction over time
 
----
 
 ## License
 
 This project is open-source. Feel free to use, modify, and distribute as needed.
 
 ---
-
-## Contributing
-
-Contributions welcome! Areas for expansion:
-
-- [ ] Real-time ERP system integration
-- [ ] Multi-hop graph reasoning
-- [ ] Anomaly detection on supply chain metrics
-- [ ] Reinforcement learning for autonomous decisions
-- [ ] Simulation & digital twin capabilities
-- [ ] REST API for enterprise integration
